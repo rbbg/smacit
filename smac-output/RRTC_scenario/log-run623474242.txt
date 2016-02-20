@@ -1,0 +1,707 @@
+10:30:14.166 [main] INFO  c.u.c.b.a.l.ComplexLoggingOptions - Logging to: /home/ruben/scripts/AAC/smac-output/RRTC_scenario/log-run623474242.txt
+10:30:14.175 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Algorithm Execution & Abstraction Toolkit is v2.10.03-master-814 (ebf4c8c913d5) 
+10:30:14.175 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Java Runtime Environment is OpenJDK 64-Bit Server VM (1.7.0_91) 
+10:30:14.175 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of OS is Linux 3.19.0-47-generic (amd64) 
+10:30:14.175 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Random Forest Library is v1.10.01-master-120 (b68439c2c391) 
+10:30:14.175 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of SMAC is v2.10.03-master-778 (3ee628ef9bf2) 
+10:30:14.175 [main] INFO  c.u.c.b.a.m.j.JCommanderHelper - Call String: smac --scenario-file scenarios/RRTC_scenario.txt 
+10:30:14.176 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ********** The next bit of output can be ignored, it is merely useful for debugging **********
+10:30:14.176 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ==========Enviroment Variables===========
+CLUTTER_IM_MODULE=xim
+CMAKE_PREFIX_PATH=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface:/home/ruben/moveit_ompl/devel_isolated/stomp:/home/ruben/moveit_ompl/devel_isolated/constrained_ik:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit:/home/ruben/moveit_ompl/devel_isolated/ur_msgs:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo:/home/ruben/moveit_ompl/devel_isolated/ur_driver:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config:/home/ruben/moveit_ompl/devel_isolated/ur_description:/home/ruben/moveit_ompl/devel_isolated/ur_bringup:/home/ruben/moveit_ompl/devel_isolated/universal_robot:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization:/home/ruben/moveit_ompl/devel_isolated/moveit_commander:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception:/home/ruben/moveit_ompl/devel_isolated/moveit_ros:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example:/home/ruben/moveit_ompl/devel_isolated/moveit_core:/home/ruben/moveit_ompl/devel_isolated/moveit_resources:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins:/home/ruben/moveit_ompl/devel_isolated/moveit_planners:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs:/opt/ros/indigo:/home/ruben/moveit_ompl/devel_isolated/ompl
+COLORTERM=gnome-terminal
+COMPIZ_CONFIG_PROFILE=ubuntu
+CPATH=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/include:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/include:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/include:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/include:/home/ruben/moveit_ompl/devel_isolated/stomp/include:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/include:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/include:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/include:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/include:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/include:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/include:/home/ruben/moveit_ompl/devel_isolated/ur_driver/include:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/include:/home/ruben/moveit_ompl/devel_isolated/ur_description/include:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/include:/home/ruben/moveit_ompl/devel_isolated/universal_robot/include:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/include:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/include:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/include:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/include:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/include:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/include:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/include:/home/ruben/moveit_ompl/devel_isolated/moveit_core/include:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/include:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/include:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/include:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/include:/opt/ros/indigo/include:/home/ruben/moveit_ompl/devel_isolated/ompl/include
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ypSD5ZIxIb
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DESKTOP_SESSION=ubuntu
+DISPLAY=:0.0
+GDMSESSION=ubuntu
+GDM_LANG=en_US
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring-Ux704m
+GNOME_KEYRING_PID=1722
+GPG_AGENT_INFO=/run/user/1000/keyring-Ux704m/gpg:0:1
+GTK_IM_MODULE=ibus
+GTK_MODULES=overlay-scrollbar:unity-gtk-module
+HOME=/home/ruben
+IM_CONFIG_PHASE=1
+INSTANCE=
+JOB=dbus
+LANG=en_US.UTF-8
+LANGUAGE=en_US
+LC_ADDRESS=nl_NL.UTF-8
+LC_IDENTIFICATION=nl_NL.UTF-8
+LC_MEASUREMENT=nl_NL.UTF-8
+LC_MONETARY=nl_NL.UTF-8
+LC_NAME=nl_NL.UTF-8
+LC_NUMERIC=nl_NL.UTF-8
+LC_PAPER=nl_NL.UTF-8
+LC_TELEPHONE=nl_NL.UTF-8
+LC_TIME=nl_NL.UTF-8
+LD_LIBRARY_PATH=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib:/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp/lib:/home/ruben/moveit_ompl/devel_isolated/stomp/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib/x86_64-linux-gnu:/opt/ros/indigo/lib:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ompl/lib:/home/ruben/moveit_ompl/devel_isolated/ompl/lib/x86_64-linux-gnu::/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_:/home/ruben/scripts/AAC/smac/lib/native/:/home/ruben/scripts/AAC/smac/lib/:/home/ruben/scripts/AAC/smac/
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LESSOPEN=| /usr/bin/lesspipe %s
+LOGNAME=ruben
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+PATH=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/bin:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/bin:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/bin:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/bin:/home/ruben/moveit_ompl/devel_isolated/stomp/bin:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/bin:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/bin:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/bin:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/bin:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/bin:/home/ruben/moveit_ompl/devel_isolated/ur_driver/bin:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/bin:/home/ruben/moveit_ompl/devel_isolated/ur_description/bin:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/bin:/home/ruben/moveit_ompl/devel_isolated/universal_robot/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_core/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/bin:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/bin:/opt/ros/indigo/bin:/home/ruben/moveit_ompl/devel_isolated/ompl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+PKG_CONFIG_PATH=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/stomp/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/pkgconfig:/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ompl/lib/pkgconfig:/home/ruben/moveit_ompl/devel_isolated/ompl/lib/x86_64-linux-gnu/pkgconfig
+PWD=/home/ruben/scripts/AAC
+PYTHONPATH=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/stomp/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages:/home/ruben/moveit_ompl/devel_isolated/ompl/lib/python2.7/dist-packages::/usr/local/lib/python2.7/dist-packages
+QT4_IM_MODULE=xim
+QT_IM_MODULE=ibus
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+ROSLISP_PACKAGE_DIRECTORIES=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/stomp/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur_driver/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur_description/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/universal_robot/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_core/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/share/common-lisp:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/share/common-lisp
+ROS_DISTRO=indigo
+ROS_ETC_DIR=/opt/ros/indigo/etc/ros
+ROS_MASTER_URI=http://localhost:11311
+ROS_PACKAGE_PATH=/home/ruben/moveit_ompl/src/ur_modern_driver:/home/ruben/moveit_ompl/src/industrial_moveit/stomp_test_kr210_moveit_config:/home/ruben/moveit_ompl/src/industrial_moveit/stomp_test_support:/home/ruben/moveit_ompl/src/industrial_moveit/stomp_moveit_interface:/home/ruben/moveit_ompl/src/industrial_moveit/stomp:/home/ruben/moveit_ompl/src/industrial_moveit/constrained_ik:/home/ruben/moveit_ompl/src/industrial_moveit/moveit_experimental:/home/ruben/moveit_ompl/src/industrial_moveit/industrial_moveit:/home/ruben/moveit_ompl/src/universal_robot/ur_msgs:/home/ruben/moveit_ompl/src/universal_robot/ur_kinematics:/home/ruben/moveit_ompl/src/universal_robot/ur_gazebo:/home/ruben/moveit_ompl/src/universal_robot/ur_driver:/home/ruben/moveit_ompl/src/universal_robot/ur5_moveit_config:/home/ruben/moveit_ompl/src/universal_robot/ur_description:/home/ruben/moveit_ompl/src/universal_robot/ur_bringup:/home/ruben/moveit_ompl/src/universal_robot/universal_robot:/home/ruben/moveit_ompl/src/moveit/moveit_planners/ompl:/home/ruben/moveit_ompl/src/moveit/moveit_plugins/moveit_simple_controller_manager:/home/ruben/moveit_ompl/src/moveit/moveit_setup_assistant:/home/ruben/moveit_ompl/src/moveit/moveit_ros/benchmarks_gui:/home/ruben/moveit_ompl/src/moveit/moveit_ros/visualization:/home/ruben/moveit_ompl/src/moveit/moveit_commander:/home/ruben/moveit_ompl/src/moveit/moveit_ros/planning_interface:/home/ruben/moveit_ompl/src/moveit/moveit_ros/benchmarks:/home/ruben/moveit_ompl/src/moveit/moveit_ros/warehouse:/home/ruben/moveit_ompl/src/moveit/moveit_ros/robot_interaction:/home/ruben/moveit_ompl/src/moveit/moveit_ros/manipulation:/home/ruben/moveit_ompl/src/moveit/moveit_ros/move_group:/home/ruben/moveit_ompl/src/moveit/moveit_ros/planning:/home/ruben/moveit_ompl/src/moveit/moveit_ros/perception:/home/ruben/moveit_ompl/src/moveit/moveit_ros/moveit_ros:/home/ruben/moveit_ompl/src/moveit/moveit_plugins/moveit_fake_controller_manager:/home/ruben/moveit_ompl/src/moveit/moveit_plugins/moveit_controller_manager_example:/home/ruben/moveit_ompl/src/moveit/moveit_core:/home/ruben/moveit_ompl/src/moveit/moveit_resources:/home/ruben/moveit_ompl/src/moveit/moveit_plugins/moveit_plugins:/home/ruben/moveit_ompl/src/moveit/moveit_planners/moveit_planners:/home/ruben/moveit_ompl/src/moveit/moveit_msgs:/opt/ros/indigo/share:/opt/ros/indigo/stacks
+ROS_ROOT=/opt/ros/indigo/share/ros
+SELINUX_INIT=YES
+SESSION=ubuntu
+SESSIONTYPE=gnome-session
+SESSION_MANAGER=local/rb-ros:@/tmp/.ICE-unix/1885,unix/rb-ros:/tmp/.ICE-unix/1885
+SHELL=/bin/bash
+SHLVL=1
+SSH_AUTH_SOCK=/run/user/1000/keyring-Ux704m/ssh
+TERM=xterm
+TEXTDOMAIN=im-config
+TEXTDOMAINDIR=/usr/share/locale/
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1724
+USER=ruben
+VTE_VERSION=3409
+WINDOWID=62923038
+XAUTHORITY=/home/ruben/.Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XDG_CURRENT_DESKTOP=Unity
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/ruben
+XDG_MENU_PREFIX=gnome-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT=seat0
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_ID=c2
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_VTNR=7
+XMODIFIERS=@im=ibus
+
+10:30:14.176 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - Hostname:rb-ros
+10:30:14.176 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ==========System Properties==============
+ERRLOG=/home/ruben/scripts/AAC/smac-output/RRTC_scenario/log-err623474242.txt
+NUMRUN=623474242
+OUTPUTDIR=/home/ruben/scripts/AAC/smac-output/RRTC_scenario
+ROOT-LEVEL=INFO
+RUNLOG=/home/ruben/scripts/AAC/smac-output/RRTC_scenario/log-run623474242.txt
+STDOUT-LEVEL=INFO
+WARNLOG=/home/ruben/scripts/AAC/smac-output/RRTC_scenario/log-warn623474242.txt
+awt.toolkit=sun.awt.X11.XToolkit
+file.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=/home/ruben/scripts/AAC/smac/conf/:/home/ruben/scripts/AAC/smac/patches/:/home/ruben/scripts/AAC/smac/lib/aeatk.jar:/home/ruben/scripts/AAC/smac/lib/aeatk-src.jar:/home/ruben/scripts/AAC/smac/lib/commons-collections-3.2.1.jar:/home/ruben/scripts/AAC/smac/lib/commons-collections-3.2.1-sources.jar:/home/ruben/scripts/AAC/smac/lib/commons-io-2.1.jar:/home/ruben/scripts/AAC/smac/lib/commons-math-2.2.jar:/home/ruben/scripts/AAC/smac/lib/commons-math3-3.3.jar:/home/ruben/scripts/AAC/smac/lib/DomainInter.jar:/home/ruben/scripts/AAC/smac/lib/exp4j-0.3.10.jar:/home/ruben/scripts/AAC/smac/lib/exp4j-0.4.3.BETA-3.jar:/home/ruben/scripts/AAC/smac/lib/fastrf.jar:/home/ruben/scripts/AAC/smac/lib/fastrf-src.jar:/home/ruben/scripts/AAC/smac/lib/guava-14.0.1.jar:/home/ruben/scripts/AAC/smac/lib/jackson-annotations-2.3.1.jar:/home/ruben/scripts/AAC/smac/lib/jackson-core-2.3.1.jar:/home/ruben/scripts/AAC/smac/lib/jackson-databind-2.3.1.jar:/home/ruben/scripts/AAC/smac/lib/Jama-1.0.2.jar:/home/ruben/scripts/AAC/smac/lib/jcip-annotations.jar:/home/ruben/scripts/AAC/smac/lib/jcip-annotations-src.jar:/home/ruben/scripts/AAC/smac/lib/jcommander.jar:/home/ruben/scripts/AAC/smac/lib/jmatharray.jar:/home/ruben/scripts/AAC/smac/lib/logback-access-1.1.2.jar:/home/ruben/scripts/AAC/smac/lib/logback-classic-1.1.2.jar:/home/ruben/scripts/AAC/smac/lib/logback-core-1.1.2.jar:/home/ruben/scripts/AAC/smac/lib/numerics4j-1.3.jar:/home/ruben/scripts/AAC/smac/lib/opencsv-2.3.jar:/home/ruben/scripts/AAC/smac/lib/slf4j-api-1.7.5.jar:/home/ruben/scripts/AAC/smac/lib/smac.jar:/home/ruben/scripts/AAC/smac/lib/smac-src.jar:/home/ruben/scripts/AAC/smac/lib/spi-0.2.4.jar:/home/ruben/scripts/AAC/smac/*.jar:/home/ruben/scripts/AAC/smac/patches/
+java.class.version=51.0
+java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+java.io.tmpdir=/tmp
+java.library.path=/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib:/home/ruben/moveit_ompl/devel_isolated/ur_modern_driver/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib:/home/ruben/moveit_ompl/devel_isolated/stomp_test_kr210_moveit_config/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib:/home/ruben/moveit_ompl/devel_isolated/stomp_test_support/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib:/home/ruben/moveit_ompl/devel_isolated/stomp_moveit_interface/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/stomp/lib:/home/ruben/moveit_ompl/devel_isolated/stomp/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib:/home/ruben/moveit_ompl/devel_isolated/constrained_ik/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_experimental/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib:/home/ruben/moveit_ompl/devel_isolated/industrial_moveit/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib:/home/ruben/moveit_ompl/devel_isolated/ur_msgs/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib:/home/ruben/moveit_ompl/devel_isolated/ur_kinematics/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib:/home/ruben/moveit_ompl/devel_isolated/ur_gazebo/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib:/home/ruben/moveit_ompl/devel_isolated/ur_driver/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib:/home/ruben/moveit_ompl/devel_isolated/ur5_moveit_config/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib:/home/ruben/moveit_ompl/devel_isolated/ur_description/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib:/home/ruben/moveit_ompl/devel_isolated/ur_bringup/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib:/home/ruben/moveit_ompl/devel_isolated/universal_robot/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_planners_ompl/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_simple_controller_manager/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_setup_assistant/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks_gui/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_visualization/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_commander/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning_interface/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_benchmarks/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_warehouse/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_robot_interaction/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_manipulation/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_move_group/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_planning/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros_perception/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_ros/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_fake_controller_manager/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_controller_manager_example/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_core/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_resources/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_plugins/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_planners/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib:/home/ruben/moveit_ompl/devel_isolated/moveit_msgs/lib/x86_64-linux-gnu:/opt/ros/indigo/lib:/opt/ros/indigo/lib/x86_64-linux-gnu:/home/ruben/moveit_ompl/devel_isolated/ompl/lib:/home/ruben/moveit_ompl/devel_isolated/ompl/lib/x86_64-linux-gnu::/usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_:/home/ruben/scripts/AAC/smac/lib/native/:/home/ruben/scripts/AAC/smac/lib/:/home/ruben/scripts/AAC/smac/:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+java.runtime.name=OpenJDK Runtime Environment
+java.runtime.version=1.7.0_91-b02
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_91
+java.vm.info=mixed mode
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.91-b01
+line.separator=
+
+logback.configurationFile=ca/ubc/cs/beta/aeatk/logging/complex-logback.xml
+os.arch=amd64
+os.name=Linux
+os.version=3.19.0-47-generic
+path.separator=:
+sun.arch.data.model=64
+sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.desktop=gnome
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=ca.ubc.cs.beta.aeatk.ant.execscript.Launcher ca.ubc.cs.beta.smac.executors.SMACExecutor --scenario-file scenarios/RRTC_scenario.txt
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=UTF-8
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/home/ruben/scripts/AAC
+user.home=/home/ruben
+user.language=en
+user.name=ruben
+user.timezone=Europe/Amsterdam
+
+10:30:14.200 [main] INFO  c.u.c.b.a.m.j.JCommanderHelper - ==========Configuration Options==========
+[SMACOptions]
+ adaptiveCapping = true
+ alwaysRunInitialConfiguration = false
+ capAddSlack = 1.0
+ capSlack = 1.3
+classicInitModeOpts = [ClassicInitializationProcedureOptions]
+		 initialIncumbentRuns = 1
+
+dciModeOpts = [DoublingCappingInitializationProcedureOptions]
+		 numberOfChallengers = 2
+		 numberOfRunsPerChallenger = 2
+
+ucip = [UnbiasChallengerInitializationProcedureOptions]
+		 numberOfChallengers = 2
+		 numberOfRunsPerChallenger = 2
+		 cpulimit = 0
+
+ deterministicInstanceOrdering = false
+ doValidation = true
+ execMode = SMAC
+ experimentDir = /home/ruben/scripts/AAC/
+ expFunc = null
+help = [HelpOptions]
+		 showHiddenParameters = false
+		 showHelp = false
+		 helpLevel = BASIC
+		 showVersion = false
+		 helpDefaults = /home/ruben/.aeatk/help.opt
+
+ initialChallengeRuns = 1
+ initialIncumbent = DEFAULT
+ initializationMode = CLASSIC
+ intensificationPercentage = 0.5
+ initialChallengers = []
+ initialChallengersIntensificationTime = 2147483647
+ iterativeCappingBreakOnFirstCompletion = false
+ iterativeCappingK = 1
+logOptions = [ComplexLoggingOptions]
+		 consoleLogLevel = INFO
+		 logLevel = INFO
+
+ maxIncumbentRuns = 2000
+mbOptions = [ModelBuildingOptions]
+		 maskCensoredDataAsKappaMax = false
+		 maskInactiveConditionalParametersAsDefaultValue = true
+		 maskCensoredDataAsUncensored = false
+		 imputationIterations = 2
+
+ modelHashCodeFile = null
+ numberOfChallengers = 10
+ numberOfRandomConfigsInEI = 10000
+ numberOfRandomConfigsUsedForLocalSearch = 0
+ numPCA = 7
+ optionFile = null
+ optionFile2 = null
+randomForestOptions = [RandomForestOptions]
+		 brokenVarianceCalculation = false
+		 freeMemoryPercentageToSubsample = 0.25
+		 fullTreeBootstrap = false
+		 ignoreConditionality = false
+		 imputeMean = false
+		 logModel = true
+		 minVariance = 1.0E-14
+		 numTrees = 10
+		 penalizeImputedValues = false
+		 preprocessMarginal = true
+		 ratioFeatures = 0.8333333333333334
+		 shuffleImputedValues = false
+		 splitMin = 10
+		 storeDataInLeaves = false
+		 subsamplePercentage = 0.9
+		 subsampleValuesWhenLowMemory = false
+
+runGroupOptions = [RunGroupOptions]
+		 runGroupName = %SCENARIO_NAME
+		 runGroupExit = false
+		 replacementChar = %
+
+scenarioConfig = [ScenarioOptions]
+		 _runObj = RUNTIME
+		 intraInstanceObj = null
+		 interInstanceObj = MEAN
+		limitOptions = [TerminationCriteriaOptions]
+				 tunerTimeout = 2147483647
+				 numIterations = 2147483647
+				 runtimeLimit = 2147483647
+				 totalNumRunsLimit = 100
+				 countSMACTimeAsTunerTime = true
+				 challengeIncumbentAttempts = 1000
+				 fileToWatch = null
+
+		instanceOptions = [ProblemInstanceOptions]
+				 instanceFile = null
+				 instanceFeatureFile = null
+				 testInstanceFile = null
+				 checkInstanceFilesExist = false
+				 useInstances = false
+				 instanceSuffix = null
+				 testInstanceSuffix = null
+				 ignoreFeatures = false
+
+		 scenarioFile = /home/ruben/scripts/AAC/scenarios/RRTC_scenario.txt
+		 outputDirectory = /home/ruben/scripts/AAC/smac-output
+		 invalidScenarioReason = null
+		algoExecOptions = [AlgorithmExecutionOptions]
+				 algoExec = python AAC_RRTC_noload.py
+				 algoExecDir = /home/ruben/scripts/AAC
+				 deterministic = true
+				 cutoffTime = 1.7976931348623157E308
+				 cutoffLength = -1.0
+				 additionalContext = {}
+				taeOpts = [TargetAlgorithmEvaluatorOptions]
+						 targetAlgorithmEvaluator = CLI
+						 abortOnCrash = false
+						 abortOnFirstRunCrash = true
+						 retryCount = 0
+						 cacheRuns = false
+						 cacheDebug = false
+						 useDynamicCappingExclusively = false
+						 reportStrictlyIncreasingRuntimes = false
+						 boundRuns = false
+						 maxConcurrentAlgoExecs = 1
+						 exitOnFailure = false
+						 runHashCodeFile = null
+						 leakMemory = false
+						 leakMemoryAmount = 1024
+						 verifySAT = null
+						 checkSATConsistency = true
+						 checkSATConsistencyException = true
+						 callObserverBeforeCompletion = true
+						prePostOptions = [PrePostCommandOptions]
+								 preCommand = null
+								 postCommand = null
+								 exceptionOnError = false
+								 logOutput = true
+								 directory = /home/ruben/scripts/AAC/.
+
+						 checkResultOrderConsistent = false
+						 skipOutstandingEvaluationsTAE = false
+						 logRequestResponses = false
+						 logRequestResponsesRCOnly = false
+						 trackRunsScheduled = false
+						 trackRunsScheduledResolution = 1.0
+						 uncleanShutdownCheck = true
+						 killCaptimeExceedingRun = true
+						 killCaptimeExceedingRunFactor = 10.0
+						 checkRunConfigsUnique = true
+						 checkRunConfigsUniqueException = true
+						 observeWalltimeIfNoRuntime = true
+						 observeWalltimeScale = 0.95
+						 observeWalltimeDelay = 5.0
+						 synchronousObserver = true
+						 taeDefaults = /home/ruben/.aeatk/tae.opt
+						ttaedo = [TransformTargetAlgorithmEvaluatorDecoratorOptions]
+								 transform = false
+								 transformValidValuesOnly = true
+								 SAT_runtime_transform = R
+								 SAT_quality_transform = Q
+								 UNSAT_runtime_transform = R
+								 UNSAT_quality_transform = Q
+								 TIMEOUT_runtime_transform = R
+								 TIMEOUT_quality_transform = Q
+								 other_runtime_transform = R
+								 other_quality_transform = Q
+
+						tForkOptions = [ForkingTargetAlgorithmEvaluatorDecoratorOptions]
+								 forkToTAE = null
+								fPolicyOptions = [ForkingTargetAlgorithmEvaluatorDecoratorPolicyOptions]
+										 fPolicy = null
+										 duplicateOnSlaveQuickTimeout = 5
+
+
+						 fileToWatch = null
+						 warnIfNoResponseFromTAE = 120
+						 taeStopProcessingOnShutdown = true
+						 filecache = false
+						 fileCacheSource = /home/ruben/scripts/AAC/./runcache
+						 fileCacheOutput = /home/ruben/scripts/AAC/./runcache
+						 fileCacheCrashOnMiss = false
+						 transformCrashedQuality = true
+						 transformCrashedQualityValue = 1.0E9
+						 filterZeroCutoffRuns = true
+
+				paramFileDelegate = [ParamConfigurationSpaceOptions]
+						 paramFile = pcs/RRTC.pcs
+						 searchSubspace = null
+						 searchSubspaceFile = null
+						 continuousNeighbours = 4
+
+
+
+seedOptions = [SeedOptions]
+		 seedOffset = 0
+		 numRun = 623474242
+		 initialSeedMap = {}
+
+ smacDefaults = /home/ruben/.aeatk/smac.opt
+stateOpts = [StateFactoryOptions]
+		 stateSerializer = LEGACY
+		 statedeSerializer = LEGACY
+		 restoreStateFrom = null
+		 restoreIteration = null
+		 restoreScenario = null
+		 cleanOldStatesOnSuccess = true
+		 saveContextWithState = true
+
+trackingOptions = [ParamConfigurationOriginTrackingOptions]
+		 configTracking = false
+
+validationOptions = [ValidationOptions]
+		 maxTimestamp = -1.0
+		 minTimestamp = 0.0
+		 multFactor = 2.0
+		 numberOfTestInstances = 2147483647
+		 numberOfTestSeedsPerInstance = 1000
+		 numberOfValidationRuns = 1
+		 outputFileSuffix = 
+		 saveStateFile = false
+		 useWallClockTime = true
+		 validateAll = false
+		 validateOnlyIfTunerTimeReached = 0.0
+		 validateOnlyIfWallTimeReached = 0.0
+		 validateOnlyLastIncumbent = true
+		 validationHeaders = true
+		 validationRoundingMode = UP
+
+warmStartOptions = [WarmStartOptions]
+		 warmStartStateFrom = null
+		 restoreIteration = 2147483647
+
+ validationSeed = 0
+ saveRunsEveryIteration = false
+ stateQuickSaves = true
+ shutdownTAEWhenDone = true
+ validationCores = null
+ shareModelMode = false
+ shareRunDataFrequency = 300
+ shareModeModeTAE = true
+ writeRunData = true
+ defaultHandler = USE_ALL
+ sharedModeModeAssymetricMode = false
+
+[AnalyticTargetAlgorithmEvaluatorOptions]
+ simulateDelay = false
+ cores = 0
+ observerFrequency = 100
+ func = CAMELBACK
+ scaleDelay = 1.0
+
+[BlackHoleTargetAlgorithmEvaluatorOptions]
+ warnings = true
+
+[CommandLineTargetAlgorithmEvaluatorOptions]
+ observerFrequency = 500
+ concurrentExecution = true
+ cores = 1
+ logAllCallStrings = false
+ logAllResultLines = false
+ logAllCallsAndResultLines = false
+ logAllProcessOutput = false
+ listenForUpdates = true
+ paramArgumentsContainQuotes = false
+ pgEnvKillCommand = null
+ pgNiceKillCommand = bash -c "kill -s TERM -%pid"
+ pgForceKillCommand = bash -c "kill -s KILL -%pid"
+ procNiceKillCommand = kill -s TERM %pid
+ procForceKillCommand = kill -s KILL %pid
+ smacDefaults = /home/ruben/.aeatk/cli-tae.opt
+
+[ConstantTargetAlgorithmEvaluatorOptions]
+ runResult = SAT
+ runtime = 1.0
+ quality = 0.0
+ runlength = 0.0
+ additionalRunData = 
+
+[IPCTargetAlgorithmEvaluatorOptions]
+ persistent = false
+ ipcMechanism = UDP
+ encodingMechanism = CALL_STRING
+ remoteHost = 127.0.0.1
+ remotePort = 5050
+ udpPacketSize = 4096
+ localPort = 0
+ execScript = null
+ execScriptOutput = false
+ poolConnections = false
+ ipcDefaults = /home/ruben/.aeatk/ipc-tae.opt
+ asyncThreads = 5
+
+[PreloadedResponseTargetAlgorithmEvaluatorOptions]
+ preloadedResponses = 
+ runLength = -1.0
+ quality = 0.0
+ additionalRunData = 
+
+[RandomResponseTargetAlgorithmEvaluatorOptions]
+ simulateDelay = false
+ additionalRunData = 
+ cores = 0
+ maxResponse = 10.0
+ minResponse = 0.0
+ observerFrequency = 500
+ trendCoefficient = 0.0
+ seed = 1453714213654
+ persistent = false
+ scaleDelay = 1.0
+
+
+10:30:14.398 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - SMAC started at: Jan 25, 2016 10:30:14 AM. Minimizing penalized average runtime (PAR10).
+10:30:21.046 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - First incumbent: config 1 (internal ID: 0x000B), with penalized average runtime (PAR10): 3.77539968491; estimate based on 1 runs.
+10:30:21.047 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 1 (internal ID: 0x000B): 
+cd /home/ruben/scripts/AAC; python AAC_RRTC_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -range '5.0'  
+10:30:27.725 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:30:27.725 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:30:47.782 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:30:47.783 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:30:55.105 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:30:55.105 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:02.227 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:02.227 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:08.818 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:08.819 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:08.921 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 8 (internal ID: 0x18F75), with penalized average runtime (PAR10): 3.45148730278; estimate based on 1 runs.
+10:31:08.922 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 8 (internal ID: 0x18F75): 
+cd /home/ruben/scripts/AAC; python AAC_RRTC_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -range '12.303112441010427'  
+10:31:15.546 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:15.547 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:22.949 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:22.950 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:29.572 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:29.573 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:42.964 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:42.964 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:50.020 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:50.020 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:31:57.139 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:31:57.139 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:03.534 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:03.534 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:10.561 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:10.561 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:17.860 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:17.860 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:24.777 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:24.778 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:31.379 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:31.380 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:37.496 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:37.496 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:50.735 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:50.735 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:32:57.332 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:32:57.332 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:04.150 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:04.150 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:11.763 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:11.764 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:19.081 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:19.081 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:26.375 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:26.375 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:32.490 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:32.491 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:39.341 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:39.341 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:45.610 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:45.611 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:52.404 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Unhandled exception in thread started by 
+10:33:52.405 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  sys.excepthook is missing
+10:33:52.405 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  lost sys.stderr
+10:33:52.405 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:52.405 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:33:59.174 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:33:59.174 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:05.974 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:05.974 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:12.791 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:12.791 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:19.493 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:19.493 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:26.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:26.209 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:32.301 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:32.302 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:38.620 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:38.620 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:45.464 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:45.464 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:52.581 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:52.581 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:34:58.979 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:34:58.980 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:05.802 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:05.803 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:12.399 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:12.399 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:19.616 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:19.616 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:26.511 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:26.511 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:32.933 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:32.933 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:46.055 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:46.055 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:52.576 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:52.576 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:35:59.096 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:35:59.096 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:06.196 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:06.196 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:12.824 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  Unhandled exception in thread started by 
+10:36:12.825 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  sys.excepthook is missing
+10:36:12.825 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  lost sys.stderr
+10:36:12.825 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:12.825 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:19.644 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:19.644 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:33.461 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:33.462 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:40.578 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:40.578 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:47.280 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:47.280 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:36:53.895 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:36:53.896 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:06.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:06.809 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:06.912 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 61 (internal ID: 0xDC499), with penalized average runtime (PAR10): 3.41575694084; estimate based on 1 runs.
+10:37:06.912 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 61 (internal ID: 0xDC499): 
+cd /home/ruben/scripts/AAC; python AAC_RRTC_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -range '4.000550521522785'  
+10:37:13.722 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:13.722 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:20.140 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:20.140 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:26.532 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:26.533 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:33.148 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:33.148 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:40.102 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:40.102 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:37:53.716 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:37:53.716 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:00.734 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:00.735 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:07.536 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:07.536 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:14.152 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:14.152 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:27.868 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:27.868 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:35.114 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:35.114 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:48.432 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:48.432 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:38:54.948 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:38:54.948 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:02.345 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:02.345 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:08.260 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:08.260 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:08.362 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 79 (internal ID: 0x11E618), with penalized average runtime (PAR10): 3.34637784958; estimate based on 1 runs.
+10:39:08.362 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 79 (internal ID: 0x11E618): 
+cd /home/ruben/scripts/AAC; python AAC_RRTC_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -range '4.079106248159569'  
+10:39:15.157 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:15.158 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:21.272 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:21.272 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:27.666 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:27.666 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:34.791 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:34.791 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:42.139 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:42.139 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:48.960 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:48.961 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:39:55.459 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:39:55.459 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:01.974 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:01.975 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:08.877 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:08.877 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:15.692 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:15.692 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:28.714 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:28.714 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:35.114 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:35.115 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:42.030 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:42.031 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:48.626 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:48.626 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:40:55.992 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:40:55.992 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:41:02.187 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:41:02.187 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:41:09.203 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:41:09.203 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:41:15.999 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:41:15.999 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:41:22.817 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:41:22.817 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:41:29.011 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+10:41:29.012 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+10:41:29.133 [main] INFO  c.u.c.b.a.e.h.LogRuntimeStatistics - *****Developer Statistics*****
+ Count: 51
+ Incumbent ID: 79 (internal ID:0x11E618)
+ Number of PISPs for Incumbent: 1
+ Number of Instances for Incumbent: 1
+ Number of Configurations Run: 100
+ Performance of the Incumbent: 3.346
+ Configuration Time Budget used: 388.65 s (0%)
+ Configuration Time Budget remaining: 2.15E9 s
+ Wall-clock Time Budget used: 674.74 s (0%)
+ Wall-clock Time Budget remaining: 2.15E9 s
+ Algorithm Runs used: 100.00  (100%)
+ Algorithm Runs remaining: 0.00 
+ Model/Iteration used: 50.00  (0%)
+ Model/Iteration remaining: 2.15E9 
+ Sum of Target Algorithm Execution Times (treating minimum value as 0.1): 383.776 s
+ CPU time of Configurator: 4.874 s
+ User time of Configurator: 4.873 s
+ Outstanding Runs on Target Algorithm Evaluator: 0
+ Outstanding Requests on Target Algorithm Evaluator: 0
+ Total Reported Algorithm Runtime: 383.776 s
+ Sum of Measured Wallclock Runtime: 659.910 s
+ Max Memory: 910 MB
+ Total Java Memory: 109 MB
+ Free Java Memory: 77 MB
+ * PISP count is roughly the number of runs, but doesn't included redundant runs on the same problem instance & seed
+10:41:29.134 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - 
+=======================================================================================
+SMAC has finished. Reason: algorithm run limit (100 runs) has been reached.   
+Total number of runs performed: 100, total configurations tried: 100.
+Total CPU time used: 389 s, total wallclock time used: 675 s.
+SMAC's final incumbent: config 79 (internal ID: 0x11E618), with estimated penalized average runtime (PAR10): 3.34637784958, based on 1 run(s) on 1 training instance(s).
+Sample call for this final incumbent:
+cd /home/ruben/scripts/AAC; python AAC_RRTC_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -range '4.079106248159569'
+=======================================================================================
+10:41:29.134 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - Now starting offline validation.
+10:41:29.142 [main] INFO  c.u.c.beta.smac.validation.Validator - Validation needs 1 algorithm runs to validate 1 configurations found, each on 1 problem instance seed pairs
+10:41:29.143 [main] INFO  c.u.c.beta.smac.validation.Validator - Validation start time: Jan 25, 2016 10:41:29 AM. Approximate worst-case end time is unknown.
+10:41:36.059 [CLI TAE Callback Threads (108-1)] INFO  c.u.c.beta.smac.validation.Validator - Validation Call Strings written to: /home/ruben/scripts/AAC/smac-output/RRTC_scenario/validationCallStrings-traj-run-623474242-walltime.csv
+10:41:36.061 [CLI TAE Callback Threads (108-1)] INFO  c.u.c.beta.smac.validation.Validator - Instance performance (for debug) written to: /home/ruben/scripts/AAC/smac-output/RRTC_scenario/validationPerformanceDebug-traj-run-623474242-walltime.csv
+10:41:36.061 [CLI TAE Callback Threads (108-1)] INFO  c.u.c.beta.smac.validation.Validator - Main validation results file written to: /home/ruben/scripts/AAC/smac-output/RRTC_scenario/validationResults-traj-run-623474242-walltime.csv
+10:41:36.062 [CLI TAE Callback Threads (108-1)] INFO  c.u.c.beta.smac.validation.Validator - Validation matrix of objectives for cross-product of configurations and (instance,seed) pairs written to: /home/ruben/scripts/AAC/smac-output/RRTC_scenario/validationObjectiveMatrix-traj-run-623474242-walltime.csv
+10:41:36.062 [CLI TAE Callback Threads (108-1)] INFO  c.u.c.beta.smac.validation.Validator - Validation matrix of complete run result line for cross-product of configurations and (instance,seed) pairs written to: /home/ruben/scripts/AAC/smac-output/RRTC_scenario/validationRunResultLineMatrix-traj-run-623474242-walltime.csv
+10:41:36.063 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Estimated mean quality of final incumbent config 79 (internal ID: 0x11E618) on test set: 3.68915987015, based on 1 run(s) on 1 test instance(s).
+Sample call for the final incumbent:
+cd /home/ruben/scripts/AAC; python AAC_RRTC_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -range '4.079106248159569' 
+Additional information about run 623474242 in:/home/ruben/scripts/AAC/smac-output/RRTC_scenario
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

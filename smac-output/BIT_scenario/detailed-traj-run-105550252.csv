@@ -1,0 +1,6 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Full Configuration","Predicted Performance (if available)",
+"0.0"," 1.7976931348623157E308","0.0","1","0.0", " rewire_factor='200', samples_per_batch='100', stop_on_each_solution_improvement='1'","NaN"
+"0.6203449135599999"," 0.33201789856","6.181","1","0.2888106859999999", " rewire_factor='200', samples_per_batch='100', stop_on_each_solution_improvement='1'","NaN"
+"0.9938441185599998"," 0.0516850948334","9.044","2","0.5621850169999998", " rewire_factor='249', samples_per_batch='251130', stop_on_each_solution_improvement='1'","0.33201789856"
+"4.4445640946200005"," 0.0512471199036","20.85","5","0.7704909079999998", " rewire_factor='189', samples_per_batch='141089', stop_on_each_solution_improvement='1'","1.1420496304844667"
+"4.569858394620001"," 0.0508682727814","24.068","6","0.795729261", " rewire_factor='280', samples_per_batch='93039', stop_on_each_solution_improvement='1'","1.1420496304844667"

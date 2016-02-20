@@ -1,0 +1,2 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Full Configuration","Predicted Performance (if available)",
+"0.0"," 1.7976931348623157E308","0.0","1","0.0", " delay_rewiring_to_first_solution='0', drop_unconnected_samples_on_prune='0', prune_threshold_as_fractional_cost_change='2', rewire_factor='200', samples_per_batch='100', stop_on_each_solution_improvement='1', use_graph_pruning='1', use_k_nearest='1'","NaN"

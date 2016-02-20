@@ -1,0 +1,1 @@
+16:38:27.333 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  [31m[ERROR] [1453736307.298598300]: [registerPublisher] Failed to contact master at [localhost:11311].  Retrying...[0m

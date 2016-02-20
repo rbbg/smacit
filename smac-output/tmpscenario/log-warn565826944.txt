@@ -1,0 +1,12 @@
+19:57:50.464 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+19:57:50.465 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+19:57:55.886 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+19:57:55.886 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+19:58:13.852 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+19:58:13.852 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+19:58:18.170 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+19:58:18.171 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+19:58:26.890 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+19:58:26.891 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.
+19:58:31.621 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]  terminate called after throwing an instance of 'class_loader::LibraryUnloadException'
+19:58:31.621 [CLI TAE (STDERR Thread - #0)] WARN  c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - [PROCESS-ERR]    what():  Attempt to unload library that class_loader is unaware of.

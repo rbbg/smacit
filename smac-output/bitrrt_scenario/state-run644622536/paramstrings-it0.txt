@@ -1,0 +1,1 @@
+1: frontier_node_ratio='0.1', frontier_threshold='0.0', init_temperature='100.0', range='5.0', temp_change_factor='0.1'

@@ -1,0 +1,5007 @@
+[ {
+  "@pi-id" : 2,
+  "pi-name" : "no_instance",
+  "pi-instance-specific-info" : "0",
+  "pi-features" : { },
+  "pi-instance-id(deprecated)" : 1
+} ] {
+  "r-rc" : {
+    "@rc-id" : 2,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2,
+      "algo-exec" : "python AAC_RRTC_noload.py",
+      "algo-exec-dir" : "/home/ruben/scripts/AAC",
+      "algo-pcs" : {
+        "@pcs-id" : 2,
+        "pcs-filename" : "/home/ruben/scripts/AAC/pcs/RRTC.pcs",
+        "pcs-text" : "range real [0.1,15] [5]\n",
+        "pcs-subspace" : { }
+      },
+      "algo-cutoff" : 1.7976931348623157E308,
+      "algo-deterministic" : false,
+      "algo-tae-context" : { }
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 2,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 14611518
+    },
+    "rc-pc" : {
+      "@pc-id" : 2,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "5.0"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : true
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.934755325317,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.823
+} {
+  "r-rc" : {
+    "@rc-id" : 3,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 3,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 2102443
+    },
+    "rc-pc" : {
+      "@pc-id" : 2
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.811348199844,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.367
+} {
+  "r-rc" : {
+    "@rc-id" : 4,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.1375676620483395,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 4,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "2.5894907577060553"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.767819881439,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.644
+} {
+  "r-rc" : {
+    "@rc-id" : 5,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.2756688583374025,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 4
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.836310625076,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.441
+} {
+  "r-rc" : {
+    "@rc-id" : 6,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 6,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 7544537
+    },
+    "rc-pc" : {
+      "@pc-id" : 4
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.739770174026,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.391
+} {
+  "r-rc" : {
+    "@rc-id" : 7,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0182912338256838,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 7,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "2.5019394347222677"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.873710870743,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.969
+} {
+  "r-rc" : {
+    "@rc-id" : 8,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 8,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 16204493
+    },
+    "rc-pc" : {
+      "@pc-id" : 4
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.723218202591,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.276
+} {
+  "r-rc" : {
+    "@rc-id" : 9,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9994143951416015,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 9,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "3.2975902446411807"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.696681499481,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.747
+} {
+  "r-rc" : {
+    "@rc-id" : 10,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.0899553764343257,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 9
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.797027111053,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.192
+} {
+  "r-rc" : {
+    "@rc-id" : 11,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0538207519531246,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 9
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.808640241623,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.376
+} {
+  "r-rc" : {
+    "@rc-id" : 12,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 12,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 2524237
+    },
+    "rc-pc" : {
+      "@pc-id" : 4
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.734796285629,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.769
+} {
+  "r-rc" : {
+    "@rc-id" : 13,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9910979736328125,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 13,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "7.612764541435661"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.667603969574,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.668
+} {
+  "r-rc" : {
+    "@rc-id" : 14,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.1028093803405756,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 13
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.792587995529,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.246
+} {
+  "r-rc" : {
+    "@rc-id" : 15,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0724446762084963,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 13
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.804175376892,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.897
+} {
+  "r-rc" : {
+    "@rc-id" : 16,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.006612633514404,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 13
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.662707328796,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.781
+} {
+  "r-rc" : {
+    "@rc-id" : 17,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.145093106079101,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 13
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.690351247787,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.874
+} {
+  "r-rc" : {
+    "@rc-id" : 18,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 18,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 2538554
+    },
+    "rc-pc" : {
+      "@pc-id" : 13
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.763823986053,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.298
+} {
+  "r-rc" : {
+    "@rc-id" : 19,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9518714416503906,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 19,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "7.141100318096482"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.788187980652,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.393
+} {
+  "r-rc" : {
+    "@rc-id" : 20,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 20,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 13677107
+    },
+    "rc-pc" : {
+      "@pc-id" : 13
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.752261638641,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.775
+} {
+  "r-rc" : {
+    "@rc-id" : 21,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9559676635742185,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 21,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.5350586821179049"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.718391180038,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.266
+} {
+  "r-rc" : {
+    "@rc-id" : 22,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9313916671752924,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.738429546356,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.768
+} {
+  "r-rc" : {
+    "@rc-id" : 23,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9714326370239257,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.727017641068,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.24
+} {
+  "r-rc" : {
+    "@rc-id" : 24,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.844975708770751,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.727099180222,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.192
+} {
+  "r-rc" : {
+    "@rc-id" : 25,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.8997464645385738,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.711711883545,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 2.99
+} {
+  "r-rc" : {
+    "@rc-id" : 26,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9745210159301756,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.673338413239,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.491
+} {
+  "r-rc" : {
+    "@rc-id" : 27,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0991816986083984,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.726716995239,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.298
+} {
+  "r-rc" : {
+    "@rc-id" : 28,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 28,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 8033385
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.699382066727,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.745
+} {
+  "r-rc" : {
+    "@rc-id" : 29,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9324391830444334,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 29,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.8926593861626009"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.730467319489,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.793
+} {
+  "r-rc" : {
+    "@rc-id" : 30,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 30,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 7788279
+    },
+    "rc-pc" : {
+      "@pc-id" : 21
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.845076799393,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.798
+} {
+  "r-rc" : {
+    "@rc-id" : 31,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9511908042907713,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 31,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "3.5369272049358726"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.626579046249,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.064
+} {
+  "r-rc" : {
+    "@rc-id" : 32,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.0364193428039545,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.784347295761,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.872
+} {
+  "r-rc" : {
+    "@rc-id" : 33,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0167675483703613,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.719009876251,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.266
+} {
+  "r-rc" : {
+    "@rc-id" : 34,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.881616066741943,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.647830963135,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.165
+} {
+  "r-rc" : {
+    "@rc-id" : 35,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.0394358146667475,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.618884086609,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.141
+} {
+  "r-rc" : {
+    "@rc-id" : 36,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.234886502075195,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.73700761795,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.77
+} {
+  "r-rc" : {
+    "@rc-id" : 37,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.276775978851318,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.702742338181,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.091
+} {
+  "r-rc" : {
+    "@rc-id" : 38,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.2629922378540037,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.79240655899,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.096
+} {
+  "r-rc" : {
+    "@rc-id" : 39,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.232863091278076,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.765968799591,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.394
+} {
+  "r-rc" : {
+    "@rc-id" : 40,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 40,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 16534302
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.833346843719,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16534302,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.324
+} {
+  "r-rc" : {
+    "@rc-id" : 41,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.942256974029541,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 41,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "3.8364776100882083"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.675385475159,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.771
+} {
+  "r-rc" : {
+    "@rc-id" : 42,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9461673248291014,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 41
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.762175321579,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.348
+} {
+  "r-rc" : {
+    "@rc-id" : 43,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9553403366088866,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 41
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.701796531677,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.697
+} {
+  "r-rc" : {
+    "@rc-id" : 44,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.806829022216796,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 41
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.736328363419,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.895
+} {
+  "r-rc" : {
+    "@rc-id" : 45,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.849601219940185,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 41
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.768444061279,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.871
+} {
+  "r-rc" : {
+    "@rc-id" : 46,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.8506239402770994,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 41
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.729609966278,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.768
+} {
+  "r-rc" : {
+    "@rc-id" : 47,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9021316040039062,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 41
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.733618736267,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.268
+} {
+  "r-rc" : {
+    "@rc-id" : 48,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 48,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 10130880
+    },
+    "rc-pc" : {
+      "@pc-id" : 31
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.759351968765,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10130880,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.095
+} {
+  "r-rc" : {
+    "@rc-id" : 49,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9465751159667968,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 49,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "14.32067859985434"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.625646352768,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.546
+} {
+  "r-rc" : {
+    "@rc-id" : 50,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.0237835395812986,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.720374822617,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.14
+} {
+  "r-rc" : {
+    "@rc-id" : 51,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0872959602355956,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.808731794357,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.894
+} {
+  "r-rc" : {
+    "@rc-id" : 52,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.817042301940917,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.742075920105,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.293
+} {
+  "r-rc" : {
+    "@rc-id" : 53,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.852343605804443,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.67694401741,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.794
+} {
+  "r-rc" : {
+    "@rc-id" : 54,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.972316693115234,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.684079170227,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.779
+} {
+  "r-rc" : {
+    "@rc-id" : 55,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0830137718200685,
+    "rc-pisp" : {
+      "@pisp-id" : 40
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.688839197159,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16534302,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.767
+} {
+  "r-rc" : {
+    "@rc-id" : 56,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.968619869995116,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.732018470764,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.772
+} {
+  "r-rc" : {
+    "@rc-id" : 57,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.016995858001708,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.668813228607,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.24
+} {
+  "r-rc" : {
+    "@rc-id" : 58,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.1475392807006832,
+    "rc-pisp" : {
+      "@pisp-id" : 48
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.761946201324,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10130880,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.596
+} {
+  "r-rc" : {
+    "@rc-id" : 59,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.157008599090576,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.677847862244,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.793
+} {
+  "r-rc" : {
+    "@rc-id" : 60,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 60,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 13618888
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.744266033173,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13618888,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.649
+} {
+  "r-rc" : {
+    "@rc-id" : 61,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9268552291870116,
+    "rc-pisp" : {
+      "@pisp-id" : 60
+    },
+    "rc-pc" : {
+      "@pc-id" : 61,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.0620235823945965"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.713491916656,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13618888,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.75
+} {
+  "r-rc" : {
+    "@rc-id" : 62,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 62,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 16466864
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.850096940994,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16466864,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.893
+} {
+  "r-rc" : {
+    "@rc-id" : 63,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9407680023193357,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 63,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.250572520301789"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.80751657486,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.27
+} {
+  "r-rc" : {
+    "@rc-id" : 64,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 64,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 6076375
+    },
+    "rc-pc" : {
+      "@pc-id" : 49
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.73392534256,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6076375,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.123
+} {
+  "r-rc" : {
+    "@rc-id" : 65,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9419073570251464,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 65,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.0802895820248875"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.668361663818,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.745
+} {
+  "r-rc" : {
+    "@rc-id" : 66,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.954249428558349,
+    "rc-pisp" : {
+      "@pisp-id" : 60
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.756872177124,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13618888,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.368
+} {
+  "r-rc" : {
+    "@rc-id" : 67,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.970315598297119,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.712831020355,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.291
+} {
+  "r-rc" : {
+    "@rc-id" : 68,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.8060603607177725,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.598202705383,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.667
+} {
+  "r-rc" : {
+    "@rc-id" : 69,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.028396843719482,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.861447572708,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.465
+} {
+  "r-rc" : {
+    "@rc-id" : 70,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9085140693664546,
+    "rc-pisp" : {
+      "@pisp-id" : 62
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.698526144028,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16466864,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.767
+} {
+  "r-rc" : {
+    "@rc-id" : 71,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0004310119628905,
+    "rc-pisp" : {
+      "@pisp-id" : 64
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.738231182098,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6076375,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.14
+} {
+  "r-rc" : {
+    "@rc-id" : 72,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 7.624973915863037,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.706840991974,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.798
+} {
+  "r-rc" : {
+    "@rc-id" : 73,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 6.7060800064086905,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.708817720413,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.892
+} {
+  "r-rc" : {
+    "@rc-id" : 74,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 5.784617279815674,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.653544902802,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.289
+} {
+  "r-rc" : {
+    "@rc-id" : 75,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.9350082862854,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.747206449509,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.27
+} {
+  "r-rc" : {
+    "@rc-id" : 76,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.963640831756591,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.799844741821,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.767
+} {
+  "r-rc" : {
+    "@rc-id" : 77,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9238426673889157,
+    "rc-pisp" : {
+      "@pisp-id" : 48
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.706492900848,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10130880,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.263
+} {
+  "r-rc" : {
+    "@rc-id" : 78,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0054012763977047,
+    "rc-pisp" : {
+      "@pisp-id" : 40
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.69598531723,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16534302,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.163
+} {
+  "r-rc" : {
+    "@rc-id" : 79,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 79,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 13001678
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.694958209991,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13001678,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.267
+} {
+  "r-rc" : {
+    "@rc-id" : 80,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.934107922363281,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 80,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.3504699386488628"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.853117227554,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.84
+} {
+  "r-rc" : {
+    "@rc-id" : 81,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 81,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 13110320
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.738224029541,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13110320,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.114
+} {
+  "r-rc" : {
+    "@rc-id" : 82,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9358696449279784,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 82,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.12118180088097"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.848376512527,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.873
+} {
+  "r-rc" : {
+    "@rc-id" : 83,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 83,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 3034208
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.71383690834,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.665
+} {
+  "r-rc" : {
+    "@rc-id" : 84,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.935558460998535,
+    "rc-pisp" : {
+      "@pisp-id" : 79
+    },
+    "rc-pc" : {
+      "@pc-id" : 84,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "7.658582617525824"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.732155561447,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13001678,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.347
+} {
+  "r-rc" : {
+    "@rc-id" : 85,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 85,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 7055282
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.651201963425,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7055282,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.748
+} {
+  "r-rc" : {
+    "@rc-id" : 86,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9307592857360838,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 86,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.085772744483816"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.737540006638,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14611518,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.37
+} {
+  "r-rc" : {
+    "@rc-id" : 87,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 87,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 14783903
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.566800355911,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14783903,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.59
+} {
+  "r-rc" : {
+    "@rc-id" : 88,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9206898200988767,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 88,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "12.004549381403722"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.898480415344,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.97
+} {
+  "r-rc" : {
+    "@rc-id" : 89,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 89,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 6903848
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.725734472275,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6903848,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.239
+} {
+  "r-rc" : {
+    "@rc-id" : 90,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9219581115722655,
+    "rc-pisp" : {
+      "@pisp-id" : 3
+    },
+    "rc-pc" : {
+      "@pc-id" : 90,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.081581147568135"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.832021713257,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2102443,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.289
+} {
+  "r-rc" : {
+    "@rc-id" : 91,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 91,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 5869969
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.817704200745,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5869969,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.368
+} {
+  "r-rc" : {
+    "@rc-id" : 92,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9287991989135742,
+    "rc-pisp" : {
+      "@pisp-id" : 48
+    },
+    "rc-pc" : {
+      "@pc-id" : 92,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.305258970611135"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.698539733887,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10130880,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.79
+} {
+  "r-rc" : {
+    "@rc-id" : 93,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.8756934631347653,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 92
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.703845024109,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.264
+} {
+  "r-rc" : {
+    "@rc-id" : 94,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9606949317932127,
+    "rc-pisp" : {
+      "@pisp-id" : 60
+    },
+    "rc-pc" : {
+      "@pc-id" : 92
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.723299264908,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13618888,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.773
+} {
+  "r-rc" : {
+    "@rc-id" : 95,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.730399273681639,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 92
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.671554088593,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.766
+} {
+  "r-rc" : {
+    "@rc-id" : 96,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.8573795783996574,
+    "rc-pisp" : {
+      "@pisp-id" : 91
+    },
+    "rc-pc" : {
+      "@pc-id" : 92
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.80731844902,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5869969,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.343
+} {
+  "r-rc" : {
+    "@rc-id" : 97,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.8078652847290035,
+    "rc-pisp" : {
+      "@pisp-id" : 79
+    },
+    "rc-pc" : {
+      "@pc-id" : 92
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.755056381226,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13001678,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.614
+} {
+  "r-rc" : {
+    "@rc-id" : 98,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.826291989135742,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 92
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.672042369843,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.594
+} {
+  "r-rc" : {
+    "@rc-id" : 99,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 99,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 5740474
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.72053194046,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5740474,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.771
+} {
+  "r-rc" : {
+    "@rc-id" : 100,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9292765129089355,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 100,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "14.065188628816559"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.751827716827,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.74
+} {
+  "r-rc" : {
+    "@rc-id" : 101,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 101,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 6068867
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.7893409729,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6068867,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.339
+} {
+  "r-rc" : {
+    "@rc-id" : 102,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.933600853729248,
+    "rc-pisp" : {
+      "@pisp-id" : 83
+    },
+    "rc-pc" : {
+      "@pc-id" : 102,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "2.710155214802273"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.654739379883,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.599
+} {
+  "r-rc" : {
+    "@rc-id" : 103,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.947038887786865,
+    "rc-pisp" : {
+      "@pisp-id" : 89
+    },
+    "rc-pc" : {
+      "@pc-id" : 102
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.83434343338,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6903848,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.867
+} {
+  "r-rc" : {
+    "@rc-id" : 104,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.8623930442810057,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 102
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.728398084641,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.765
+} {
+  "r-rc" : {
+    "@rc-id" : 105,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 105,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 1764287
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.642211198807,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1764287,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.64
+} {
+  "r-rc" : {
+    "@rc-id" : 106,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9295951354980467,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 106,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.439444249485089"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.810034990311,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.994
+} {
+  "r-rc" : {
+    "@rc-id" : 107,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 107,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 14016736
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.683461904526,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14016736,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.364
+} {
+  "r-rc" : {
+    "@rc-id" : 108,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9280553329467773,
+    "rc-pisp" : {
+      "@pisp-id" : 105
+    },
+    "rc-pc" : {
+      "@pc-id" : 108,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "14.826719526708995"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.778238773346,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1764287,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.264
+} {
+  "r-rc" : {
+    "@rc-id" : 109,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 109,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 720248
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.600852012634,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 720248,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.641
+} {
+  "r-rc" : {
+    "@rc-id" : 110,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9225036132812499,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 110,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.342139097767294"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.837873697281,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.364
+} {
+  "r-rc" : {
+    "@rc-id" : 111,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 111,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 10360611
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.728064537048,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10360611,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.265
+} {
+  "r-rc" : {
+    "@rc-id" : 112,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9234879959106443,
+    "rc-pisp" : {
+      "@pisp-id" : 64
+    },
+    "rc-pc" : {
+      "@pc-id" : 112,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "13.963211153468492"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.674635410309,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6076375,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.79
+} {
+  "r-rc" : {
+    "@rc-id" : 113,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.8908373344421383,
+    "rc-pisp" : {
+      "@pisp-id" : 111
+    },
+    "rc-pc" : {
+      "@pc-id" : 112
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.795284509659,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10360611,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.891
+} {
+  "r-rc" : {
+    "@rc-id" : 114,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.8569677818298338,
+    "rc-pisp" : {
+      "@pisp-id" : 105
+    },
+    "rc-pc" : {
+      "@pc-id" : 112
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.950132608414,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1764287,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.873
+} {
+  "r-rc" : {
+    "@rc-id" : 115,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 115,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 1281498
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.68477845192,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1281498,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.643
+} {
+  "r-rc" : {
+    "@rc-id" : 116,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9223932731628417,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 116,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.080729438765438"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.763342857361,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.891
+} {
+  "r-rc" : {
+    "@rc-id" : 117,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 117,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 12281208
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.684727907181,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 12281208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.797
+} {
+  "r-rc" : {
+    "@rc-id" : 118,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.921370457458496,
+    "rc-pisp" : {
+      "@pisp-id" : 79
+    },
+    "rc-pc" : {
+      "@pc-id" : 118,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "5.159445602357133"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.695328950882,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13001678,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.245
+} {
+  "r-rc" : {
+    "@rc-id" : 119,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.857582806396484,
+    "rc-pisp" : {
+      "@pisp-id" : 99
+    },
+    "rc-pc" : {
+      "@pc-id" : 118
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.699282169342,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5740474,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.114
+} {
+  "r-rc" : {
+    "@rc-id" : 120,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9485153663635253,
+    "rc-pisp" : {
+      "@pisp-id" : 48
+    },
+    "rc-pc" : {
+      "@pc-id" : 118
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.888488054276,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10130880,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.45
+} {
+  "r-rc" : {
+    "@rc-id" : 121,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 121,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 11480190
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.607646226883,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 11480190,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.673
+} {
+  "r-rc" : {
+    "@rc-id" : 122,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9170758712768552,
+    "rc-pisp" : {
+      "@pisp-id" : 83
+    },
+    "rc-pc" : {
+      "@pc-id" : 122,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "2.0913848935456074"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.756279706955,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.852
+} {
+  "r-rc" : {
+    "@rc-id" : 123,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 123,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 16421257
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.749436616898,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16421257,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.795
+} {
+  "r-rc" : {
+    "@rc-id" : 124,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.919004963684082,
+    "rc-pisp" : {
+      "@pisp-id" : 83
+    },
+    "rc-pc" : {
+      "@pc-id" : 124,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "3.302024585023853"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.775727272034,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.277
+} {
+  "r-rc" : {
+    "@rc-id" : 125,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 125,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 15390614
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.773886919022,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 15390614,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.113
+} {
+  "r-rc" : {
+    "@rc-id" : 126,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9218068588256836,
+    "rc-pisp" : {
+      "@pisp-id" : 121
+    },
+    "rc-pc" : {
+      "@pc-id" : 126,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.4870371920290355"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.616605997086,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 11480190,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.066
+} {
+  "r-rc" : {
+    "@rc-id" : 127,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.961230610656738,
+    "rc-pisp" : {
+      "@pisp-id" : 99
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.653059482574,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5740474,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.665
+} {
+  "r-rc" : {
+    "@rc-id" : 128,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.1122526634216308,
+    "rc-pisp" : {
+      "@pisp-id" : 89
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.728039979935,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6903848,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.665
+} {
+  "r-rc" : {
+    "@rc-id" : 129,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.847824715423583,
+    "rc-pisp" : {
+      "@pisp-id" : 85
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.729022026062,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7055282,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.865
+} {
+  "r-rc" : {
+    "@rc-id" : 130,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.900096081542968,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.716417312622,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.255
+} {
+  "r-rc" : {
+    "@rc-id" : 131,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.968753575134277,
+    "rc-pisp" : {
+      "@pisp-id" : 81
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.734325885773,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13110320,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.289
+} {
+  "r-rc" : {
+    "@rc-id" : 132,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0141293037414547,
+    "rc-pisp" : {
+      "@pisp-id" : 60
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.779590845108,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13618888,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.288
+} {
+  "r-rc" : {
+    "@rc-id" : 133,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 133,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 2530657
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.779097318649,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2530657,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.893
+} {
+  "r-rc" : {
+    "@rc-id" : 134,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9246434677124022,
+    "rc-pisp" : {
+      "@pisp-id" : 125
+    },
+    "rc-pc" : {
+      "@pc-id" : 134,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.4179650435435092"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.702590465546,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 15390614,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.791
+} {
+  "r-rc" : {
+    "@rc-id" : 135,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.857960938262939,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 134
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.79364991188,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.365
+} {
+  "r-rc" : {
+    "@rc-id" : 136,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.826216362762451,
+    "rc-pisp" : {
+      "@pisp-id" : 89
+    },
+    "rc-pc" : {
+      "@pc-id" : 134
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.593368768692,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6903848,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.67
+} {
+  "r-rc" : {
+    "@rc-id" : 137,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.748208664703368,
+    "rc-pisp" : {
+      "@pisp-id" : 111
+    },
+    "rc-pc" : {
+      "@pc-id" : 134
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.739167928696,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10360611,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.165
+} {
+  "r-rc" : {
+    "@rc-id" : 138,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.7872900474548334,
+    "rc-pisp" : {
+      "@pisp-id" : 83
+    },
+    "rc-pc" : {
+      "@pc-id" : 134
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.747193098068,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.765
+} {
+  "r-rc" : {
+    "@rc-id" : 139,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.8159387100219724,
+    "rc-pisp" : {
+      "@pisp-id" : 123
+    },
+    "rc-pc" : {
+      "@pc-id" : 134
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.804886341095,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16421257,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.772
+} {
+  "r-rc" : {
+    "@rc-id" : 140,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7695870864868164,
+    "rc-pisp" : {
+      "@pisp-id" : 105
+    },
+    "rc-pc" : {
+      "@pc-id" : 134
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.753801107407,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1764287,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.364
+} {
+  "r-rc" : {
+    "@rc-id" : 141,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 141,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 4697340
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.811490058899,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 4697340,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.799
+} {
+  "r-rc" : {
+    "@rc-id" : 142,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9285524833679197,
+    "rc-pisp" : {
+      "@pisp-id" : 117
+    },
+    "rc-pc" : {
+      "@pc-id" : 142,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.080510922849588"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.786199331284,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 12281208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.34
+} {
+  "r-rc" : {
+    "@rc-id" : 143,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 143,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 9862252
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.70227265358,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 9862252,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.69
+} {
+  "r-rc" : {
+    "@rc-id" : 144,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9281805503845213,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 144,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "5.078304296922598"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.776280879974,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.89
+} {
+  "r-rc" : {
+    "@rc-id" : 145,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 145,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 8883597
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.776978254318,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8883597,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.842
+} {
+  "r-rc" : {
+    "@rc-id" : 146,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9305274475097653,
+    "rc-pisp" : {
+      "@pisp-id" : 83
+    },
+    "rc-pc" : {
+      "@pc-id" : 146,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.314550298268978"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.731176137924,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.092
+} {
+  "r-rc" : {
+    "@rc-id" : 147,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 147,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 1400645
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.877776861191,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1400645,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.489
+} {
+  "r-rc" : {
+    "@rc-id" : 148,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9362899291992186,
+    "rc-pisp" : {
+      "@pisp-id" : 117
+    },
+    "rc-pc" : {
+      "@pc-id" : 148,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "14.823964753356398"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.741292953491,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 12281208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.893
+} {
+  "r-rc" : {
+    "@rc-id" : 149,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 149,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 7164520
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.764652252197,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7164520,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.238
+} {
+  "r-rc" : {
+    "@rc-id" : 150,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.93787808303833,
+    "rc-pisp" : {
+      "@pisp-id" : 101
+    },
+    "rc-pc" : {
+      "@pc-id" : 150,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.487842339172384"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.870152950287,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6068867,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.796
+} {
+  "r-rc" : {
+    "@rc-id" : 151,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 151,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 14492475
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.732671737671,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14492475,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.289
+} {
+  "r-rc" : {
+    "@rc-id" : 152,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9383182037353515,
+    "rc-pisp" : {
+      "@pisp-id" : 89
+    },
+    "rc-pc" : {
+      "@pc-id" : 152,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "9.488898851526777"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.706897497177,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6903848,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.891
+} {
+  "r-rc" : {
+    "@rc-id" : 153,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.8933887947082515,
+    "rc-pisp" : {
+      "@pisp-id" : 151
+    },
+    "rc-pc" : {
+      "@pc-id" : 152
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.779928445816,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14492475,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.268
+} {
+  "r-rc" : {
+    "@rc-id" : 154,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.8794808853149414,
+    "rc-pisp" : {
+      "@pisp-id" : 109
+    },
+    "rc-pc" : {
+      "@pc-id" : 152
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.838932037354,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 720248,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.869
+} {
+  "r-rc" : {
+    "@rc-id" : 155,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 155,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 2901695
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.681190490723,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2901695,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.219
+} {
+  "r-rc" : {
+    "@rc-id" : 156,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9370647895812987,
+    "rc-pisp" : {
+      "@pisp-id" : 125
+    },
+    "rc-pc" : {
+      "@pc-id" : 156,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "1.486951834752073"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.713850736618,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 15390614,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.263
+} {
+  "r-rc" : {
+    "@rc-id" : 157,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.880585621643066,
+    "rc-pisp" : {
+      "@pisp-id" : 83
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.625106096268,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 3034208,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.164
+} {
+  "r-rc" : {
+    "@rc-id" : 158,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0679480064392086,
+    "rc-pisp" : {
+      "@pisp-id" : 109
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.675076007843,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 720248,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.263
+} {
+  "r-rc" : {
+    "@rc-id" : 159,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.933405255126953,
+    "rc-pisp" : {
+      "@pisp-id" : 143
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.676410675049,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 9862252,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.765
+} {
+  "r-rc" : {
+    "@rc-id" : 160,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.054071377563476,
+    "rc-pisp" : {
+      "@pisp-id" : 18
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.760578632355,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2538554,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.87
+} {
+  "r-rc" : {
+    "@rc-id" : 161,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.065318535614013,
+    "rc-pisp" : {
+      "@pisp-id" : 99
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.72716999054,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5740474,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.239
+} {
+  "r-rc" : {
+    "@rc-id" : 162,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.1199975479125976,
+    "rc-pisp" : {
+      "@pisp-id" : 149
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.802310466766,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7164520,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.187
+} {
+  "r-rc" : {
+    "@rc-id" : 163,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 8.563105438995361,
+    "rc-pisp" : {
+      "@pisp-id" : 8
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.80098938942,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16204493,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.919
+} {
+  "r-rc" : {
+    "@rc-id" : 164,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 7.52181830291748,
+    "rc-pisp" : {
+      "@pisp-id" : 155
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.712876558304,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2901695,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.646
+} {
+  "r-rc" : {
+    "@rc-id" : 165,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 6.59507908706665,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.703848600388,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.088
+} {
+  "r-rc" : {
+    "@rc-id" : 166,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 5.680075596618652,
+    "rc-pisp" : {
+      "@pisp-id" : 101
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.62606549263,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6068867,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.288
+} {
+  "r-rc" : {
+    "@rc-id" : 167,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.866190766143799,
+    "rc-pisp" : {
+      "@pisp-id" : 133
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.736313581467,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2530657,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.693
+} {
+  "r-rc" : {
+    "@rc-id" : 168,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.9089828002929683,
+    "rc-pisp" : {
+      "@pisp-id" : 91
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.765226125717,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5869969,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.891
+} {
+  "r-rc" : {
+    "@rc-id" : 169,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9141897666931147,
+    "rc-pisp" : {
+      "@pisp-id" : 107
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.696785926819,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14016736,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.77
+} {
+  "r-rc" : {
+    "@rc-id" : 170,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.0083680618286133,
+    "rc-pisp" : {
+      "@pisp-id" : 121
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.68221449852,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 11480190,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.665
+} {
+  "r-rc" : {
+    "@rc-id" : 171,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 16.093710659790034,
+    "rc-pisp" : {
+      "@pisp-id" : 89
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.776482105255,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6903848,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.866
+} {
+  "r-rc" : {
+    "@rc-id" : 172,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 15.084283303070066,
+    "rc-pisp" : {
+      "@pisp-id" : 20
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.707906484604,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13677107,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.765
+} {
+  "r-rc" : {
+    "@rc-id" : 173,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 14.164005802917478,
+    "rc-pisp" : {
+      "@pisp-id" : 48
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.725354909897,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10130880,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.666
+} {
+  "r-rc" : {
+    "@rc-id" : 174,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 13.22104411010742,
+    "rc-pisp" : {
+      "@pisp-id" : 85
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.929842948914,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7055282,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.069
+} {
+  "r-rc" : {
+    "@rc-id" : 175,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 12.012248276519772,
+    "rc-pisp" : {
+      "@pisp-id" : 12
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.743207216263,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2524237,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.163
+} {
+  "r-rc" : {
+    "@rc-id" : 176,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 11.046079205322265,
+    "rc-pisp" : {
+      "@pisp-id" : 60
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.779373407364,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13618888,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.34
+} {
+  "r-rc" : {
+    "@rc-id" : 177,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 10.032892845916747,
+    "rc-pisp" : {
+      "@pisp-id" : 87
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.647202968597,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14783903,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.089
+} {
+  "r-rc" : {
+    "@rc-id" : 178,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 9.191529606628418,
+    "rc-pisp" : {
+      "@pisp-id" : 141
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.648949384689,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 4697340,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.701
+} {
+  "r-rc" : {
+    "@rc-id" : 179,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 8.347895096588134,
+    "rc-pisp" : {
+      "@pisp-id" : 111
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.643333673477,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 10360611,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.69
+} {
+  "r-rc" : {
+    "@rc-id" : 180,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 7.511561631011962,
+    "rc-pisp" : {
+      "@pisp-id" : 79
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.747017860413,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13001678,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.791
+} {
+  "r-rc" : {
+    "@rc-id" : 181,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 6.540438412475585,
+    "rc-pisp" : {
+      "@pisp-id" : 30
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.797544002533,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7788279,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.79
+} {
+  "r-rc" : {
+    "@rc-id" : 182,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 5.503630589294433,
+    "rc-pisp" : {
+      "@pisp-id" : 6
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.710705041885,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7544537,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.79
+} {
+  "r-rc" : {
+    "@rc-id" : 183,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 4.579714344787597,
+    "rc-pisp" : {
+      "@pisp-id" : 115
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.70627784729,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1281498,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.771
+} {
+  "r-rc" : {
+    "@rc-id" : 184,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 3.661553143310546,
+    "rc-pisp" : {
+      "@pisp-id" : 147
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.801380634308,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1400645,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.765
+} {
+  "r-rc" : {
+    "@rc-id" : 185,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.6197589385986326,
+    "rc-pisp" : {
+      "@pisp-id" : 105
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.720936059952,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 1764287,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.769
+} {
+  "r-rc" : {
+    "@rc-id" : 186,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.6825411308288571,
+    "rc-pisp" : {
+      "@pisp-id" : 62
+    },
+    "rc-pc" : {
+      "@pc-id" : 156
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.79193687439,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 16466864,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.339
+} {
+  "r-rc" : {
+    "@rc-id" : 187,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 187,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 606902
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.951719760895,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 606902,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.917
+} {
+  "r-rc" : {
+    "@rc-id" : 188,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.944448899078369,
+    "rc-pisp" : {
+      "@pisp-id" : 107
+    },
+    "rc-pc" : {
+      "@pc-id" : 188,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "6.3575783939939745"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.773691177368,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 14016736,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.843
+} {
+  "r-rc" : {
+    "@rc-id" : 189,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 189,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 924016
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.600569486618,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 924016,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.621
+} {
+  "r-rc" : {
+    "@rc-id" : 190,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.071621464538574,
+    "rc-pisp" : {
+      "@pisp-id" : 145
+    },
+    "rc-pc" : {
+      "@pc-id" : 126
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.898603916168,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8883597,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.968
+} {
+  "r-rc" : {
+    "@rc-id" : 191,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 191,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 6506868
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.740592956543,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 6506868,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.088
+} {
+  "r-rc" : {
+    "@rc-id" : 192,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9411895263671872,
+    "rc-pisp" : {
+      "@pisp-id" : 149
+    },
+    "rc-pc" : {
+      "@pc-id" : 192,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "3.0857214809760554"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.675063371658,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7164520,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.69
+} {
+  "r-rc" : {
+    "@rc-id" : 193,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9433840263366697,
+    "rc-pisp" : {
+      "@pisp-id" : 133
+    },
+    "rc-pc" : {
+      "@pc-id" : 192
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.746699333191,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 2530657,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.088
+} {
+  "r-rc" : {
+    "@rc-id" : 194,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9726748931884766,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 192
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.747624874115,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.69
+} {
+  "r-rc" : {
+    "@rc-id" : 195,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 195,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 7617790
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.677978277206,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 7617790,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.565
+} {
+  "r-rc" : {
+    "@rc-id" : 196,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9398890007019043,
+    "rc-pisp" : {
+      "@pisp-id" : 143
+    },
+    "rc-pc" : {
+      "@pc-id" : 196,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.319601955185837"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.865078449249,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 9862252,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.439
+} {
+  "r-rc" : {
+    "@rc-id" : 197,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 197,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 11518739
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.832328081131,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 11518739,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.797
+} {
+  "r-rc" : {
+    "@rc-id" : 198,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9431049812316892,
+    "rc-pisp" : {
+      "@pisp-id" : 99
+    },
+    "rc-pc" : {
+      "@pc-id" : 198,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "9.599124186257363"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.812345266342,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 5740474,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.791
+} {
+  "r-rc" : {
+    "@rc-id" : 199,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 199,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : 9965526
+    },
+    "rc-pc" : {
+      "@pc-id" : 65
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.753171920776,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 9965526,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.254
+} {
+  "r-rc" : {
+    "@rc-id" : 200,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 1.9439443099975584,
+    "rc-pisp" : {
+      "@pisp-id" : 81
+    },
+    "rc-pc" : {
+      "@pc-id" : 200,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "range" : "4.316298862650831"
+      },
+      "pc-active-parameters" : [ "range" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.68146777153,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 13110320,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.59
+} {
+  "r-rc" : {
+    "@rc-id" : 201,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.9433245170593256,
+    "rc-pisp" : {
+      "@pisp-id" : 28
+    },
+    "rc-pc" : {
+      "@pc-id" : 200
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 0.608180046082,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : 8033385,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.689
+}

@@ -1,0 +1,2 @@
+"Validation Configuration ID","Configuration ","Sample Call String"
+"1","-goal_bias '0.8823337357318368' -range '7.430644954531919'","python smac_runproblem.py geometric::RRTConnect no_instance 0 1.7976931348623157E308 2147483647 -1 -goal_bias '0.8823337357318368' -range '7.430644954531919' "

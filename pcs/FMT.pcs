@@ -1,0 +1,10 @@
+rewire_factor integer [100,300] [200]
+samples_per_batch integer [1,1000000] [100] 
+use_k_nearest categorical {0,1} [1]
+use_graph_pruning categorical {0,1} [1]
+prune_threshold_as_fractional_cost_change integer [0,100] [2]
+prune_threshold_as_fractional_cost_change | use_graph_pruning in {1}
+drop_unconnected_samples_on_prune categorical {0,1} [0]
+drop_unconnected_samples_on_prune | use_graph_pruning in {1}
+delay_rewiring_to_first_solution categorical {0,1} [0]
+stop_on_each_solution_improvement categorical {1} [1]

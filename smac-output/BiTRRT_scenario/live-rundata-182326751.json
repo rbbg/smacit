@@ -1,0 +1,1772 @@
+[ {
+  "@pi-id" : 2,
+  "pi-name" : "no_instance",
+  "pi-instance-specific-info" : "0",
+  "pi-features" : { },
+  "pi-instance-id(deprecated)" : 1
+} ] {
+  "r-rc" : {
+    "@rc-id" : 2,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2,
+      "algo-exec" : "python AAC_BiTRRT_noload.py",
+      "algo-exec-dir" : "/home/ruben/scripts/AAC",
+      "algo-pcs" : {
+        "@pcs-id" : 2,
+        "pcs-filename" : "/home/ruben/scripts/AAC/pcs/BiTRRT.pcs",
+        "pcs-text" : "range real [0.1,15] [5]\ntemp_change_factor real [0,1] [0.1]\ninit_temperature real [0,1000] [100]\nfrontier_threshold real [0,100] [0]\nfrontier_node_ratio real [0,1] [0.1]\n",
+        "pcs-subspace" : { }
+      },
+      "algo-cutoff" : 1.7976931348623157E308,
+      "algo-deterministic" : true,
+      "algo-tae-context" : { }
+    },
+    "rc-cutoff" : 1.7976931348623157E308,
+    "rc-pisp" : {
+      "@pisp-id" : 2,
+      "pisp-pi" : {
+        "@pi-id" : 2
+      },
+      "pisp-seed" : -1
+    },
+    "rc-pc" : {
+      "@pc-id" : 2,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.1",
+        "frontier_threshold" : "0.0",
+        "init_temperature" : "100.0",
+        "range" : "5.0",
+        "temp_change_factor" : "0.1"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : true
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.11702489853,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.101
+} {
+  "r-rc" : {
+    "@rc-id" : 3,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 3,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.14805238032086254",
+        "frontier_threshold" : "41.84083122953617",
+        "init_temperature" : "587.2580930271314",
+        "range" : "0.1164765178424356",
+        "temp_change_factor" : "0.1519677584637369"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26191854477,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.19
+} {
+  "r-rc" : {
+    "@rc-id" : 4,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 4,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.25961490470243553",
+        "frontier_threshold" : "8.533820243183921",
+        "init_temperature" : "568.7264358888201",
+        "range" : "5.342481172550747",
+        "temp_change_factor" : "0.944255898050844"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26678323746,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.277
+} {
+  "r-rc" : {
+    "@rc-id" : 5,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 5,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.2924758522078733",
+        "frontier_threshold" : "89.3988320186632",
+        "init_temperature" : "435.2444005832794",
+        "range" : "1.3248131027391599",
+        "temp_change_factor" : "0.576904110450735"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.25780439377,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.191
+} {
+  "r-rc" : {
+    "@rc-id" : 6,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 6,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5587058000906804",
+        "frontier_threshold" : "51.91609330030181",
+        "init_temperature" : "734.1534520525078",
+        "range" : "14.077630451086401",
+        "temp_change_factor" : "0.8199594366421251"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26463198662,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.347
+} {
+  "r-rc" : {
+    "@rc-id" : 7,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 7,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.25176514539513073",
+        "frontier_threshold" : "10.996512789220914",
+        "init_temperature" : "794.9008242960058",
+        "range" : "3.4133810376898834",
+        "temp_change_factor" : "0.7443319197852613"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26579189301,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.045
+} {
+  "r-rc" : {
+    "@rc-id" : 8,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 8,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.24851260125081276",
+        "frontier_threshold" : "94.63026613021538",
+        "init_temperature" : "637.0487536073779",
+        "range" : "2.22212207701715",
+        "temp_change_factor" : "0.8994250494173566"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26723122597,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 8.748
+} {
+  "r-rc" : {
+    "@rc-id" : 9,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 9,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5245787807004147",
+        "frontier_threshold" : "63.44722950186742",
+        "init_temperature" : "724.3566557194036",
+        "range" : "6.491443082297477",
+        "temp_change_factor" : "0.9115389892708837"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26273107529,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.266
+} {
+  "r-rc" : {
+    "@rc-id" : 10,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 10,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.13100335362748128",
+        "frontier_threshold" : "47.98320413569262",
+        "init_temperature" : "594.9462830412232",
+        "range" : "0.5347582875567869",
+        "temp_change_factor" : "0.19707173410260592"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.28618717194,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.495
+} {
+  "r-rc" : {
+    "@rc-id" : 11,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 11,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.3252638173448752",
+        "frontier_threshold" : "15.934740948084558",
+        "init_temperature" : "611.3604515422423",
+        "range" : "10.300703598460974",
+        "temp_change_factor" : "0.42812015705102135"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27195811272,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.344
+} {
+  "r-rc" : {
+    "@rc-id" : 12,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 12,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.7552030698817913",
+        "frontier_threshold" : "90.774329580557",
+        "init_temperature" : "433.74231432206824",
+        "range" : "13.75416106929723",
+        "temp_change_factor" : "0.1257361922380248"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.2859275341,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.396
+} {
+  "r-rc" : {
+    "@rc-id" : 13,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 13,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.0038970902161622467",
+        "frontier_threshold" : "0.595288763347368",
+        "init_temperature" : "438.3854535902255",
+        "range" : "14.904615781412497",
+        "temp_change_factor" : "0.06794543596309421"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.47231602669,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.845
+} {
+  "r-rc" : {
+    "@rc-id" : 14,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 14,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5049463391815757",
+        "frontier_threshold" : "33.49107228553797",
+        "init_temperature" : "282.96803637402104",
+        "range" : "5.183964804050731",
+        "temp_change_factor" : "0.9543080713566628"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27901172638,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.244
+} {
+  "r-rc" : {
+    "@rc-id" : 15,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 15,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.08010878268804333",
+        "frontier_threshold" : "3.537020312302519",
+        "init_temperature" : "334.1295320585621",
+        "range" : "9.219825305815762",
+        "temp_change_factor" : "0.0223419888763694"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.58026695251,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.972
+} {
+  "r-rc" : {
+    "@rc-id" : 16,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 16,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5496054025243053",
+        "frontier_threshold" : "12.089634939684702",
+        "init_temperature" : "661.1495258133082",
+        "range" : "14.490158020571416",
+        "temp_change_factor" : "0.35491625677126337"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.2744512558,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.279
+} {
+  "r-rc" : {
+    "@rc-id" : 17,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 17,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.10710945103633851",
+        "frontier_threshold" : "62.00346564465353",
+        "init_temperature" : "630.417527192255",
+        "range" : "6.265925391830379",
+        "temp_change_factor" : "0.030753058460024074"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.28136205673,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.406
+} {
+  "r-rc" : {
+    "@rc-id" : 18,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 18,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.677067234657963",
+        "frontier_threshold" : "76.0821651667477",
+        "init_temperature" : "139.2000261195181",
+        "range" : "12.477295877621504",
+        "temp_change_factor" : "0.4722039778600279"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27359461784,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.381
+} {
+  "r-rc" : {
+    "@rc-id" : 19,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 19,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.0138605617940607",
+        "frontier_threshold" : "5.664083141042864",
+        "init_temperature" : "313.9011398827749",
+        "range" : "1.695400762015377",
+        "temp_change_factor" : "0.13976264968198537"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26249194145,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.416
+} {
+  "r-rc" : {
+    "@rc-id" : 20,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 20,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.20038208153943238",
+        "frontier_threshold" : "66.09580395177946",
+        "init_temperature" : "686.2527102381014",
+        "range" : "1.5967156239602418",
+        "temp_change_factor" : "0.2448970786479444"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26500916481,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.271
+} {
+  "r-rc" : {
+    "@rc-id" : 21,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 21,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5013905223692958",
+        "frontier_threshold" : "4.1457954177333995",
+        "init_temperature" : "161.1686699776792",
+        "range" : "11.756895164551048",
+        "temp_change_factor" : "0.21863713595733325"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.37148475647,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.404
+} {
+  "r-rc" : {
+    "@rc-id" : 22,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 22,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.6543435586926565",
+        "frontier_threshold" : "0.7464657721627299",
+        "init_temperature" : "116.17380227086183",
+        "range" : "8.130040728075803",
+        "temp_change_factor" : "0.21150176891326355"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.46202683449,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.55
+} {
+  "r-rc" : {
+    "@rc-id" : 23,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 23,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.08010878268804333",
+        "frontier_threshold" : "4.481779705847014",
+        "init_temperature" : "31.82275931492512",
+        "range" : "9.219825305815762",
+        "temp_change_factor" : "0.0223419888763694"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 2.47810602188,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 5.526
+} {
+  "r-rc" : {
+    "@rc-id" : 24,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 24,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.2674946706027297",
+        "frontier_threshold" : "96.1012241061461",
+        "init_temperature" : "388.6246852594578",
+        "range" : "12.7089875046966",
+        "temp_change_factor" : "0.5694229703494893"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26555728912,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.369
+} {
+  "r-rc" : {
+    "@rc-id" : 25,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 25,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.7012862671847756",
+        "frontier_threshold" : "4.604195042970138",
+        "init_temperature" : "214.2629820354791",
+        "range" : "3.987502892542418",
+        "temp_change_factor" : "0.2656901324522447"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26521635056,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.289
+} {
+  "r-rc" : {
+    "@rc-id" : 26,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 26,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.20358103504284097",
+        "frontier_threshold" : "19.56080207038041",
+        "init_temperature" : "545.2273392553243",
+        "range" : "3.319339285389797",
+        "temp_change_factor" : "0.9166042583197704"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.28490424156,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 8.863
+} {
+  "r-rc" : {
+    "@rc-id" : 27,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 27,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.08010878268804333",
+        "frontier_threshold" : "4.481779705847014",
+        "init_temperature" : "274.4896190362589",
+        "range" : "9.219825305815762",
+        "temp_change_factor" : "0.0223419888763694"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 2.45096373558,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.903
+} {
+  "r-rc" : {
+    "@rc-id" : 28,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 28,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.41874521888181615",
+        "frontier_threshold" : "62.156965325155156",
+        "init_temperature" : "153.36067938964126",
+        "range" : "10.089466286422104",
+        "temp_change_factor" : "0.3509636315822321"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26724123955,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.014
+} {
+  "r-rc" : {
+    "@rc-id" : 29,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 29,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.4578657585515886",
+        "frontier_threshold" : "4.536459212069577",
+        "init_temperature" : "358.32966633519567",
+        "range" : "0.27995045891092296",
+        "temp_change_factor" : "0.22433276964528703"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.25532579422,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.293
+} {
+  "r-rc" : {
+    "@rc-id" : 30,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 30,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.9712390788301666",
+        "frontier_threshold" : "33.7228902683254",
+        "init_temperature" : "693.8653237111912",
+        "range" : "0.6809530818219452",
+        "temp_change_factor" : "0.3852624380010252"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26717400551,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.113
+} {
+  "r-rc" : {
+    "@rc-id" : 31,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 31,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.9836248158435862",
+        "frontier_threshold" : "4.502205351648247",
+        "init_temperature" : "363.0721303468678",
+        "range" : "12.524097942211629",
+        "temp_change_factor" : "0.12530505322856733"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.55320167542,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.445
+} {
+  "r-rc" : {
+    "@rc-id" : 32,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 32,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.4423598204543506",
+        "frontier_threshold" : "71.7074478326476",
+        "init_temperature" : "431.0729415055684",
+        "range" : "4.075037866799775",
+        "temp_change_factor" : "0.07526432672947359"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26451635361,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.113
+} {
+  "r-rc" : {
+    "@rc-id" : 33,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 33,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.06337636928265455",
+        "frontier_threshold" : "4.51891488623467",
+        "init_temperature" : "718.359464734397",
+        "range" : "2.1810287335988576",
+        "temp_change_factor" : "0.4721374207234591"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26191353798,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.236
+} {
+  "r-rc" : {
+    "@rc-id" : 34,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 34,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.045911724982371616",
+        "frontier_threshold" : "64.92708406251623",
+        "init_temperature" : "752.0627827651224",
+        "range" : "8.715577528363292",
+        "temp_change_factor" : "0.011824901337061267"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27083158493,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.311
+} {
+  "r-rc" : {
+    "@rc-id" : 35,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 35,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.20256633580868455",
+        "frontier_threshold" : "4.514364558813988",
+        "init_temperature" : "491.6929546584423",
+        "range" : "14.042331941998924",
+        "temp_change_factor" : "0.5573079131047229"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.79482007027,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.278
+} {
+  "r-rc" : {
+    "@rc-id" : 36,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 36,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.9406459914696551",
+        "frontier_threshold" : "30.15390799073201",
+        "init_temperature" : "150.4858288182588",
+        "range" : "1.5761141816366804",
+        "temp_change_factor" : "0.0012221696906502544"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26010656357,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.285
+} {
+  "r-rc" : {
+    "@rc-id" : 37,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 37,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.9303602867751463",
+        "frontier_threshold" : "7.450666151126217",
+        "init_temperature" : "265.57960611741703",
+        "range" : "2.529859459608454",
+        "temp_change_factor" : "0.9139620787460084"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.293364048,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.348
+} {
+  "r-rc" : {
+    "@rc-id" : 38,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 38,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.4090613197006099",
+        "frontier_threshold" : "94.37827427561352",
+        "init_temperature" : "703.3407060588801",
+        "range" : "3.9878900076476893",
+        "temp_change_factor" : "0.5958566771392299"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.28096795082,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.265
+} {
+  "r-rc" : {
+    "@rc-id" : 39,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 39,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.8526682841270357",
+        "frontier_threshold" : "1.5650030206819543",
+        "init_temperature" : "622.8102722322936",
+        "range" : "6.510180249561047",
+        "temp_change_factor" : "0.17301762711707236"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.37431001663,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.791
+} {
+  "r-rc" : {
+    "@rc-id" : 40,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 40,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.408876293831849",
+        "frontier_threshold" : "67.21154606712356",
+        "init_temperature" : "212.43648742531917",
+        "range" : "9.742443213456815",
+        "temp_change_factor" : "0.04260036113119925"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27321410179,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.21
+} {
+  "r-rc" : {
+    "@rc-id" : 41,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 41,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5310916101253121",
+        "frontier_threshold" : "4.516455530294127",
+        "init_temperature" : "92.45546562838081",
+        "range" : "6.897870277400506",
+        "temp_change_factor" : "0.16093699397704586"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.21889424324,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.294
+} {
+  "r-rc" : {
+    "@rc-id" : 42,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 42,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.8335047700942168",
+        "frontier_threshold" : "10.604509725755861",
+        "init_temperature" : "498.34927017353925",
+        "range" : "10.554576084390916",
+        "temp_change_factor" : "0.8954628756832036"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26586914062,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.21
+} {
+  "r-rc" : {
+    "@rc-id" : 43,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 43,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.7730305377566482",
+        "frontier_threshold" : "1.3808968812022981",
+        "init_temperature" : "393.9082059193001",
+        "range" : "3.056374606974153",
+        "temp_change_factor" : "0.04943556213941935"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.1815226078,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.144
+} {
+  "r-rc" : {
+    "@rc-id" : 44,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 44,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.6138905372296442",
+        "frontier_threshold" : "46.0632849840376",
+        "init_temperature" : "723.6206989447192",
+        "range" : "2.229810241219613",
+        "temp_change_factor" : "0.33794097812453405"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26059007645,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.184
+} {
+  "r-rc" : {
+    "@rc-id" : 45,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 45,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.30417765060782254",
+        "frontier_threshold" : "4.516610340693816",
+        "init_temperature" : "296.2352855501583",
+        "range" : "1.7227574299161212",
+        "temp_change_factor" : "0.49849274251675835"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27545499802,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.36
+} {
+  "r-rc" : {
+    "@rc-id" : 46,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 46,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.7476227171254638",
+        "frontier_threshold" : "95.80536775423015",
+        "init_temperature" : "246.61764987202505",
+        "range" : "14.908124047036875",
+        "temp_change_factor" : "0.012802947117232288"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.28088760376,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.112
+} {
+  "r-rc" : {
+    "@rc-id" : 47,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 47,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.9333172481390972",
+        "frontier_threshold" : "0.8176601874922085",
+        "init_temperature" : "62.050559193954854",
+        "range" : "6.8694071945275255",
+        "temp_change_factor" : "0.9455000905758953"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.18586540222,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 4.067
+} {
+  "r-rc" : {
+    "@rc-id" : 48,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 48,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.6567804616701813",
+        "frontier_threshold" : "77.26079101930118",
+        "init_temperature" : "129.16403573408354",
+        "range" : "9.93727535413188",
+        "temp_change_factor" : "0.5577922563400763"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.27289962769,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.388
+} {
+  "r-rc" : {
+    "@rc-id" : 49,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 49,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.5310916101253121",
+        "frontier_threshold" : "4.516455530294127",
+        "init_temperature" : "187.55336177364129",
+        "range" : "6.897870277400506",
+        "temp_change_factor" : "0.16093699397704586"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 1.48335409164,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 3.814
+} {
+  "r-rc" : {
+    "@rc-id" : 50,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 50,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.8863966961054363",
+        "frontier_threshold" : "64.5939245905749",
+        "init_temperature" : "150.67234609800883",
+        "range" : "0.6669838288775246",
+        "temp_change_factor" : "0.4404937392705828"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.26832437515,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 9.358
+} {
+  "r-rc" : {
+    "@rc-id" : 51,
+    "rc-algo-exec-config" : {
+      "@algo-exec-config-id" : 2
+    },
+    "rc-cutoff" : 2.454733513641357,
+    "rc-pisp" : {
+      "@pisp-id" : 2
+    },
+    "rc-pc" : {
+      "@pc-id" : 51,
+      "pc-pcs" : {
+        "@pcs-id" : 2
+      },
+      "pc-settings" : {
+        "frontier_node_ratio" : "0.08010878268804333",
+        "frontier_threshold" : "4.481779705847014",
+        "init_temperature" : "274.4896190362589",
+        "range" : "2.5615419144075933",
+        "temp_change_factor" : "0.04240989116581022"
+      },
+      "pc-active-parameters" : [ "frontier_node_ratio", "frontier_threshold", "init_temperature", "range", "temp_change_factor" ],
+      "pc-forbidden" : false,
+      "pc-default" : false
+    },
+    "rc-sample-idx" : 0
+  },
+  "r-run-result" : "SAT",
+  "r-runtime" : 6.28609967232,
+  "r-run-length" : 0.0,
+  "r-quality" : 0.0,
+  "r-result-seed" : -1,
+  "r-addl-run-data" : "",
+  "r-wallclock-time" : 8.811
+}

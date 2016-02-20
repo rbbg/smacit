@@ -1,0 +1,6 @@
+use-instances = false
+numberOfRunsLimit = 50
+runObj = RUNTIME
+deterministic = 1
+pcs-file = pcs/FMT.pcs
+algo = python AAC_FMT_noload.py

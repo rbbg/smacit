@@ -1,0 +1,5 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
+0.0, 1.7976931348623157E308, 0.0, 1, 0.0,  goal_bias='0.4', range='13.3'
+1.58814287091, 1.23005175591, 4.588, 1, 0.3584852279999998,  goal_bias='0.4', range='13.3'
+2.756917887545, 0.835434913635, 8.961, 2, 0.691764884,  goal_bias='0.5442057452368432', range='7.594523478601775'
+10.612283521159002, 0.835434913635, 40.835, 2, 1.224511862,  goal_bias='0.5442057452368432', range='7.594523478601775'

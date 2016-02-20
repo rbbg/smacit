@@ -1,0 +1,5 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Full Configuration","Predicted Performance (if available)",
+"0.0"," 1.7976931348623157E308","0.0","1","0.0", " range='5.0'","NaN"
+"787.647049181"," 787.377685547","3.906","1","0.26982793400000005", " range='5.0'","NaN"
+"1566.658615806"," 778.728515625","7.533","2","0.552842474", " range='12.034548020556588'","787.377685547"
+"3070.570313729"," 711.447998047","14.995","4","0.7186851570000001", " range='11.135349104335983'","786.1346842446679"

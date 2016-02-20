@@ -1,0 +1,25 @@
+15:10:24.296 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - The following algorithm call failed: cd "/home/ruben/scripts/AAC" ;  python AAC_RRTC_noload.py no_instance 0 6.335035942840576 2147483647 -1 -range '2.8455147991541305'  
+15:10:24.297 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - The last 4 lines of output we saw were:
+15:10:24.297 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - > [0m[ INFO] [1453731018.155447906]: Loading robot model 'ur5'...[0m
+15:10:24.297 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - > [0m[ INFO] [1453731018.155490320]: No root joint specified. Assuming fixed joint[0m
+15:10:24.297 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - > [0m[ INFO] [1453731018.313789901]: Loading robot model 'ur5'...[0m
+15:10:24.297 [CLI TAE (Master Thread - #0)] ERROR c.u.c.b.a.t.b.c.CommandLineAlgorithmRun - > [0m[ INFO] [1453731018.313828787]: No root joint specified. Assuming fixed joint[0m
+15:10:32.121 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - Message: / by zero
+15:10:32.122 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - Exception:java.lang.ArithmeticException
+15:10:32.122 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - StackTrace:java.lang.ArithmeticException: / by zero
+	at ca.ubc.cs.beta.models.fastrf.RegtreeFit.critval_cont(RegtreeFit.java:1090)
+	at ca.ubc.cs.beta.models.fastrf.RegtreeFit.fit(RegtreeFit.java:612)
+	at ca.ubc.cs.beta.models.fastrf.RandomForest.learnModel(RandomForest.java:612)
+	at ca.ubc.cs.beta.models.fastrf.RandomForest.learnModel(RandomForest.java:180)
+	at ca.ubc.cs.beta.aeatk.model.builder.AdaptiveCappingModelBuilder.buildRandomForest(AdaptiveCappingModelBuilder.java:488)
+	at ca.ubc.cs.beta.aeatk.model.builder.AdaptiveCappingModelBuilder.<init>(AdaptiveCappingModelBuilder.java:144)
+	at ca.ubc.cs.beta.smac.configurator.SequentialModelBasedAlgorithmConfiguration.learnModel(SequentialModelBasedAlgorithmConfiguration.java:258)
+	at ca.ubc.cs.beta.smac.configurator.AbstractAlgorithmFramework.run(AbstractAlgorithmFramework.java:568)
+	at ca.ubc.cs.beta.smac.executors.SMACExecutor.oldMain(SMACExecutor.java:140)
+	at ca.ubc.cs.beta.smac.executors.SMACExecutor.main(SMACExecutor.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at ca.ubc.cs.beta.aeatk.ant.execscript.Launcher.main(Launcher.java:37)
+

@@ -1,0 +1,2 @@
+"Validation Configuration ID","Configuration ","Sample Call String"
+"1","-delay_rewiring_to_first_solution '0' -rewire_factor '197' -samples_per_batch '100' -stop_on_each_solution_improvement '1' -use_graph_pruning '0' -use_k_nearest '1'","python AAC_BIT_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -delay_rewiring_to_first_solution '0' -rewire_factor '197' -samples_per_batch '100' -stop_on_each_solution_improvement '1' -use_graph_pruning '0' -use_k_nearest '1' "

@@ -1,0 +1,22 @@
+11:19:42.761 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - Message: Unknown dependent parameter: use_grap_pruning, specified on conditional line: prune_threshold_as_fractional_cost_change | use_grap_pruning in {1}
+11:19:42.762 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - Exception:java.lang.IllegalArgumentException
+11:19:42.763 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - StackTrace:java.lang.IllegalArgumentException: Unknown dependent parameter: use_grap_pruning, specified on conditional line: prune_threshold_as_fractional_cost_change | use_grap_pruning in {1}
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParameterConfigurationSpace.parseConditional(ParameterConfigurationSpace.java:918)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParameterConfigurationSpace.processConditionalLines(ParameterConfigurationSpace.java:560)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParameterConfigurationSpace.<init>(ParameterConfigurationSpace.java:453)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParameterConfigurationSpace.<init>(ParameterConfigurationSpace.java:386)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParameterConfigurationSpace.<init>(ParameterConfigurationSpace.java:373)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParamFileHelper.getParamFileParser(ParamFileHelper.java:43)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParamFileHelper.getParamFileParser(ParamFileHelper.java:31)
+	at ca.ubc.cs.beta.aeatk.parameterconfigurationspace.ParamConfigurationSpaceOptions.getParamConfigurationSpace(ParamConfigurationSpaceOptions.java:184)
+	at ca.ubc.cs.beta.aeatk.algorithmexecutionconfiguration.AlgorithmExecutionOptions.getAlgorithmExecutionConfig(AlgorithmExecutionOptions.java:159)
+	at ca.ubc.cs.beta.aeatk.options.scenario.ScenarioOptions.getAlgorithmExecutionConfig(ScenarioOptions.java:129)
+	at ca.ubc.cs.beta.aeatk.smac.SMACOptions.getAlgorithmExecutionConfig(SMACOptions.java:278)
+	at ca.ubc.cs.beta.smac.executors.SMACExecutor.oldMain(SMACExecutor.java:133)
+	at ca.ubc.cs.beta.smac.executors.SMACExecutor.main(SMACExecutor.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at ca.ubc.cs.beta.aeatk.ant.execscript.Launcher.main(Launcher.java:37)
+

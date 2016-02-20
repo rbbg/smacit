@@ -1,0 +1,6 @@
+use-instances = false
+numberOfRunsLimit = 200
+runObj = RUNTIME
+deterministic = 0
+pcs-file = pcs/RRTC.pcs
+algo = python AAC_RRTC_noload.py

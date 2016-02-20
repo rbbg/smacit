@@ -1,0 +1,1 @@
+08:35:07.379 [main] ERROR c.u.c.b.smac.executors.SMACExecutor - Message: Unknown option: --rub-objective
