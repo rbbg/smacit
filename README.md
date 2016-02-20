@@ -20,3 +20,5 @@ currently, the smac_runploblem.py has the states for the first scene hardcoded
 
 
 Getting states:
+
+do move->execute with rviz, wait until robot arrives and run python ur5_getstate.py
