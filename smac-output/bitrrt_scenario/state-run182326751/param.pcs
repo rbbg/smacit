@@ -1,5 +1,0 @@
-range real [0.1,15] [5]
-temp_change_factor real [0,1] [0.1]
-init_temperature real [0,1000] [100]
-frontier_threshold real [0,100] [0]
-frontier_node_ratio real [0,1] [0.1]

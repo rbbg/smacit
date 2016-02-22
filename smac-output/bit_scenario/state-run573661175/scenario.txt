@@ -1,6 +1,0 @@
-use-instances = false
-numberOfRunsLimit = 100
-runObj = RUNTIME
-deterministic = 1
-pcs-file = pcs/BIT.pcs
-algo = python AAC_BIT_noload.py

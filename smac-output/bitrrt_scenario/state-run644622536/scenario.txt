@@ -1,6 +1,0 @@
-use-instances = false
-numberOfRunsLimit = 50
-runObj = RUNTIME
-deterministic = 1
-pcs-file = pcs/BiTRRT.pcs
-algo = python AAC_BiTRRT_noload.py

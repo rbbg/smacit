@@ -1,6 +1,0 @@
-use-instances = false
-numberOfRunsLimit = 10
-runObj = RUNTIME
-deterministic = 1
-pcs-file = pcs/RRT.pcs
-algo = python smac_runproblem.py geometric::RRTConnect

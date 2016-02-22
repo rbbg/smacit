@@ -1,4 +1,0 @@
-"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
-0.0, 1.7976931348623157E308, 0.0, 1, 0.0,  frontier_node_ratio='0.1', frontier_threshold='0.0', init_temperature='100.0', range='5.0', temp_change_factor='0.1'
-1.3911836545299998, 1.11702489853, 4.306, 1, 0.274606649,  frontier_node_ratio='0.1', frontier_threshold='0.0', init_temperature='100.0', range='5.0', temp_change_factor='0.1'
-250.97135368025994, 1.11702489853, 401.183, 1, 3.5001434120000003,  frontier_node_ratio='0.1', frontier_threshold='0.0', init_temperature='100.0', range='5.0', temp_change_factor='0.1'

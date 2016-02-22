@@ -1,1 +1,0 @@
-1: rewire_factor='200', samples_per_batch='100', stop_on_each_solution_improvement='1'

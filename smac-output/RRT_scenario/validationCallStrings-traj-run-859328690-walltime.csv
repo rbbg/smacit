@@ -1,2 +1,0 @@
-"Validation Configuration ID","Configuration ","Sample Call String"
-"1","-goal_bias '0.4072730778941157' -range '13.309111639862198'","python AAC_RRT_noload.py no_instance 0 1.7976931348623157E308 2147483647 -1 -goal_bias '0.4072730778941157' -range '13.309111639862198' "

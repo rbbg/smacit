@@ -1,2 +1,0 @@
-"Validation Configuration ID","Configuration ","Sample Call String"
-"1","-range '5.14479198006863'","python smac_runproblem.py geometric::RRTConnect no_instance 0 1.7976931348623157E308 2147483647 -1 -range '5.14479198006863' "

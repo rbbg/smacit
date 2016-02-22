@@ -1,5 +1,0 @@
-use-instances = false
-numberOfRunsLimit = 100
-runObj = RUNTIME
-pcs-file = pcs/RRTC.pcs
-algo = AAC_RRTC_noload.py
