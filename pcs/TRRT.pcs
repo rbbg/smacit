@@ -1,0 +1,9 @@
+range real [0.1,15] [5]
+goal_bias real [0,1] [0.05]
+temp_change_factor real [0,1] [0.1]
+min_temperature real [0,1] [0.0000000001]
+init_temperature real [0,1] [0.000001]
+{min_temperature < init_temperature}
+frontier_threshold real [0,1] [0.4]
+frontierNodeRatio real [0,1] [0.1]
+cost_threshold real [0,100000] [100000]

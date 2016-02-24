@@ -1,0 +1,5 @@
+range real [0.1,15] [5]
+goal_bias real [0,1] [0.05]
+border_fraction real [0,1] [0.9]
+failed_expansion_score_factor real [0,1] [0.5]
+min_valid_path_fraction real [0,1] [0.2]
