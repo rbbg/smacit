@@ -7,6 +7,7 @@ Created on Wed Nov 11 13:25:48 2015
 
 
 import sys
+import os
 import copy
 import rospy
 import moveit_commander
@@ -51,11 +52,11 @@ def move_group_python_interface_tutorial():
 
   varone = robot.get_current_state()
 
-  print varone.joint_state.position
+  strin = str(varone.joint_state.position)
+
+  print strin
 
   print "------------------------------------"
-  
-
 
 if __name__=='__main__':
   try:
