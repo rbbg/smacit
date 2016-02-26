@@ -8,8 +8,8 @@ Created on Tue Nov 10 10:56:45 2015
 import sys
 import os
 
-planner_type = "geometric::BITstar"
-pcs_file = "BIT_stop.pcs"
+planner_type = "geometric::RRTConnect"
+pcs_file = "RRTC.pcs"
 scene_number = "4"
 problem_iterations = "5"
 smac_iterations = 300

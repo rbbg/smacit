@@ -37,6 +37,8 @@ class brc():
 
 		planner_name = "SMAC"
 
+		planning_time = 1
+
 		planner_type = problem_config[0]
 		scene_number = problem_config[1]
 		problem_iterations = int(problem_config[2])
@@ -51,7 +53,7 @@ class brc():
 
 		planning_frame = group.get_planning_frame()
 
-		group.set_planning_time(0.4)
+		group.set_planning_time(planning_time)
 		group.set_planner_id(planner_name)
 		
 		base_string = "/move_group/planner_configs/"+ planner_name +"/"
@@ -69,22 +71,23 @@ class brc():
 			for num in range (0, lines):
 				states[num] = eval(f.readline())
 
+		print len(states)
+
 		result = 0		   		            
-		for x2 in xrange(len(states)):
+		for x2 in range(0,5):
 			start = states[x2]
-			for x3 in xrange(len(states)):         #loops to decide start and goal states
+			for x3 in range(5,10):         #loops to decide start and goal states
 				if (x2==x3): break              #break if start/goal is same
-				goal = states[x3]                            										
+				goal = states[x3][:-1]    #remove last one as not considered in planning                            										
 				query = {"start":start, "goal":goal}        #create query dict										
 				for it in range (0, problem_iterations):
-
 					start_state = robot.get_current_state()
 					start_state.joint_state.position = start				
 					group.set_start_state(start_state)
 					group.set_joint_value_target(goal)     #takes a list as input
 					start_time = time.time()                # *1000 to get millisecond
 					planned_path = group.plan()
-		
+					
 					if (len(planned_path.joint_trajectory.points) == 0): #invalid path
 						tm = 1
 					else:

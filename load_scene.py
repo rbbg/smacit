@@ -30,6 +30,7 @@ def ld_scene(x1):
 	scene_string = "scene_" + str(x1)
 	
 	#Object Publishers, can alsu use PlanningSceneInterface, but this doesn throw any warnings
+	
 	object_publisher = rospy.Publisher('/collision_object',
 			moveit_msgs.msg._CollisionObject.CollisionObject,
 			queue_size=100)
@@ -38,7 +39,7 @@ def ld_scene(x1):
 
 	rospy.sleep(0.2)
 
-	planning_frame = group.get_planning_frame() 
+	planning_frame = group.get_planning_frame()
 
 	env_names = []
 
@@ -134,7 +135,7 @@ if __name__ == "__main__":
 	""" The main, init roscpp and rospy, construct class and launch benchmark """
 
 	moveit_commander.roscpp_initialize(sys.argv)
-	rospy.init_node('Scene_loader', anonymous=True)
+	rospy.init_node('scene_loader', anonymous=True)
 
 	ld_scene(sys.argv[1])
 

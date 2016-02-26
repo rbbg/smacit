@@ -8,10 +8,10 @@ Created on Tue Nov 10 10:56:45 2015
 import sys
 import os
 
-planner_type = "geometric::BKPIECE"
-pcs_file = "BKPIECE.pcs"
-scene_number = "4"
-problem_iterations = "5"
+planner_type = "geometric::BITstar"
+pcs_file = "BIT_stop.pcs"
+scene_number = "7"
+problem_iterations = "3"
 smac_iterations = 10000
 walltime_limit = 30*60
 
@@ -31,8 +31,8 @@ try:
 	
 	tfile.write("check-sat-consistency false \n")
 	tfile.write("check-sat-consistency-exception false \n")
-	tfile.write("algo-cutoff-time 5\n")
-	tfile.write("kill-run-exceeding-captime-factor 3\n")
+	tfile.write("algo-cutoff-time 25\n")
+	tfile.write("kill-run-exceeding-captime-factor 2\n")
 
 	# tfile.write("kill-run-exceeding-captime false")
 	# tfile.write("transform-crashed-quality false")
