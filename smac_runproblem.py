@@ -36,6 +36,8 @@ class brc():
 		""" benchmark run that sets parameters and generates a cost  """
 
 		planner_name = "SMAC"
+		planning_timeout = 4
+		failfactor = 1
 
 		planner_type = problem_config[0]
 		scene_number = problem_config[1]
@@ -51,7 +53,7 @@ class brc():
 
 		planning_frame = group.get_planning_frame()
 
-		group.set_planning_time(0.4)
+		group.set_planning_time(planning_timeout)
 		group.set_planner_id(planner_name)
 		
 		base_string = "/move_group/planner_configs/"+ planner_name +"/"
@@ -86,7 +88,7 @@ class brc():
 					planned_path = group.plan()
 		
 					if (len(planned_path.joint_trajectory.points) == 0): #invalid path
-						tm = 1
+						tm = planning_timeout*failfactor
 					else:
 						tm = (time.time()-start_time)
 					
